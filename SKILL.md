@@ -91,7 +91,10 @@ The profile includes:
   slots are reserved for the scholar's own journals
 - a domain-aware `search` block
 - source presets: forestry disables arXiv/bioRxiv/trials/policy; neuroscience
-  enables the full stack
+  enables the full stack. Psychiatry enables FDA drug/device sources for the
+  industry bucket.
+- `policy_feeds` for psychiatry/neuroscience; enabling policy without feeds
+  produces no policy/news section
 - default windows
 
 ## Supported domains
@@ -101,7 +104,7 @@ The profile includes:
 | `forestry` | journal + PubMed; arXiv/bioRxiv/trials/policy off | Loess / soil erosion / vegetation restoration / afforestation / forest hydrology |
 | `neuroscience` | journal + PubMed + arXiv + bioRxiv + trials + policy | inferred concepts |
 | `oncology` | journal + PubMed + bioRxiv + trials + policy | inferred concepts |
-| `psychiatry` | journal + PubMed + bioRxiv + trials + policy | depression / PTSD / TMS / neuromodulation |
+| `psychiatry` | journal + PubMed + bioRxiv + trials + policy + FDA drug/device | depression / PTSD / TMS / neuromodulation |
 | `general` | journal + PubMed + arXiv + bioRxiv | inferred concepts |
 
 Domain detection scores word-boundary concept hits (so `plant` does not match

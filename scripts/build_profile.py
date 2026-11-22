@@ -95,6 +95,8 @@ DOMAINS = {
             "arxiv": {"enabled": False, "max_results": 100, "lookback_days": 2},
             "trials": {"enabled": True, "max_results": 100, "lookback_days": 2},
             "policy": {"enabled": True, "max_results": 100, "lookback_days": 2},
+            "fda_drugs": {"enabled": True, "max_results": 100, "lookback_days": 2},
+            "fda_devices": {"enabled": True, "max_results": 100, "lookback_days": 2},
         },
     },
     "general": {
@@ -130,6 +132,31 @@ DOMAIN_QUERIES = {
     "forestry": 'Loess OR "soil erosion" OR "vegetation restoration" OR afforestation OR "forest hydrology" OR "soil water"',
     "psychiatry": 'depression OR PTSD OR "transcranial magnetic stimulation" OR neuromodulation OR "deep brain stimulation"',
 }
+
+# Policy/news RSS is explicit: enabling the policy source without feeds yields
+# no policy/news section. These are official or publisher feeds, not scraped
+# private pages. Review them before importing a profile.
+DOMAIN_POLICY_FEEDS = {
+    "psychiatry": [
+        "https://www.nimh.nih.gov/news/index.rss",
+        "https://nida.nih.gov/rss.xml",
+        "https://www.ninds.nih.gov/news-events/news-releases/rss.xml",
+        "https://www.sfn.org/news",
+        "https://www.nature.com/subjects/neuroscience.rss",
+        "https://www.nature.com/subjects/psychiatric-disorders.rss",
+        "https://www.nature.com/mp.rss",
+        "https://www.nature.com/nm.rss",
+        "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
+    ],
+    "neuroscience": [
+        "https://www.nimh.nih.gov/news/index.rss",
+        "https://www.ninds.nih.gov/news-events/news-releases/rss.xml",
+        "https://www.sfn.org/news",
+        "https://www.nature.com/subjects/neuroscience.rss",
+        "https://www.nature.com/nn.rss",
+    ],
+}
+
 
 JOURNAL_RSS = {
     "Journal of Environmental Management": "https://rss.sciencedirect.com/publication/science/03014797",
@@ -319,7 +346,7 @@ def build(evidence: dict, name: str | None = None, profile_id: str | None = None
             "news_hours": 36,
             "other_lookback_days": 7,
         },
-        "policy_feeds": [],
+        "policy_feeds": DOMAIN_POLICY_FEEDS.get(selected_domain, []),
         "journals": journals,
     }
     return {"format": "neurodaily.profile", "version": 1, "config": config}

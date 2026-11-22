@@ -41,6 +41,9 @@ class BuildProfileTests(unittest.TestCase):
         self.assertFalse(config["sources"]["arxiv"]["enabled"])
         self.assertTrue(config["sources"]["biorxiv"]["enabled"])
         self.assertTrue(config["sources"]["trials"]["enabled"])
+        self.assertTrue(config["sources"]["fda_drugs"]["enabled"])
+        self.assertTrue(config["sources"]["fda_devices"]["enabled"])
+        self.assertGreaterEqual(len(config["policy_feeds"]), 5)
         self.assertIn("depression", config["search"]["query"].casefold())
         names = [journal["name"] for journal in config["journals"]]
         self.assertIn("JAMA Psychiatry", names)

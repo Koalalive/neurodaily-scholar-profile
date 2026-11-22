@@ -75,6 +75,8 @@ confirmation.
   (author journals get reserved slots)
 - a conservative `search` block
 - default sources and retrieval windows
+- domain policy/news RSS feeds when available; psychiatry also enables FDA
+  drug/device sources for the industry section
 - no SMTP/API keys or local delivery settings
 
 See [`examples/`](examples/) for evidence and generated profile samples.
@@ -86,6 +88,19 @@ Nolan Williams (Stanford University), built from ORCID
 `0000-0003-4368-3203` and OpenAlex `A5074022923`. It validates and imports into
 NeuroDaily; see [`TEST_REPORT.md`](examples/nolan-williams/TEST_REPORT.md) for
 commands and the psychiatry/neuromodulation domain fit.
+
+## Why industry / policy / news can be empty
+
+`industry`, `policy` and news are **render buckets**, not standalone sources.
+They fill only when the matching source produces items:
+
+- `industry`: `fda_drugs`, `fda_devices`, and `funding` items
+- `policy` / news: `policy` RSS feeds, `gdelt`, or `nih_brain`
+
+A profile with `sources.policy.enabled = true` but `policy_feeds = []` will produce
+no policy/news section. The same applies when FDA sources are absent. The profile
+builder now emits psychiatry feeds and enables FDA sources; verify feeds before
+importing.
 
 ## Field-leading journals
 

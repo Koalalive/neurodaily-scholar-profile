@@ -75,6 +75,8 @@ is editorial, not an official JCR/CAS ranking; see
 ## Notes
 
 - The evidence contains 200 of 249 OpenAlex works, selected by the collector limit.
+- Psychiatry profile includes 9 policy/news RSS feeds and enables FDA drug/device
+  sources, so the industry and policy sections have configured inputs.
 - Domain detection now uses word-boundary scoring, so forestry's `plant` token does
   not match `implant` in neuromodulation titles.
 - Always review inferred interests and journals before importing a profile.

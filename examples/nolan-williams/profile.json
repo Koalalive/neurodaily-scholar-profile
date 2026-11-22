@@ -117,6 +117,16 @@
         "enabled": true,
         "max_results": 100,
         "lookback_days": 2
+      },
+      "fda_drugs": {
+        "enabled": true,
+        "max_results": 100,
+        "lookback_days": 2
+      },
+      "fda_devices": {
+        "enabled": true,
+        "max_results": 100,
+        "lookback_days": 2
       }
     },
     "windows": {
@@ -127,7 +137,17 @@
       "news_hours": 36,
       "other_lookback_days": 7
     },
-    "policy_feeds": [],
+    "policy_feeds": [
+      "https://www.nimh.nih.gov/news/index.rss",
+      "https://nida.nih.gov/rss.xml",
+      "https://www.ninds.nih.gov/news-events/news-releases/rss.xml",
+      "https://www.sfn.org/news",
+      "https://www.nature.com/subjects/neuroscience.rss",
+      "https://www.nature.com/subjects/psychiatric-disorders.rss",
+      "https://www.nature.com/mp.rss",
+      "https://www.nature.com/nm.rss",
+      "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml"
+    ],
     "journals": [
       {
         "name": "Nature",
