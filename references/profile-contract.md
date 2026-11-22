@@ -101,7 +101,11 @@ source. Do not fabricate JCR/CAS values.
 ## Import into NeuroDaily
 
 ```bash
+python scripts/validate.py neurodaily-profile.json
 neurodaily profile validate neurodaily-profile.json
 neurodaily profile import neurodaily-profile.json --name scholar-slug
 neurodaily profile doctor scholar-slug
 ```
+
+`validate.py` reports JSON syntax errors with line/column and schema errors with
+field paths (for example `config.sources.policy.feed_kinds[...]`) before import.

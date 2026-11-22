@@ -1,5 +1,5 @@
 ---
-version: 1.2.0
+version: 1.3.0
 name: neurodaily-scholar-profile
 description: Build a validated NeuroDaily research profile from a scholar's published work and stated interests. Use when asked to create or update a NeuroDaily configuration for a named researcher, PI, author, ORCID, PubMed author, or Google Scholar identity; collects ORCID/OpenAlex/PubMed evidence, infers disciplines, keywords, journals, and search rules, then exports one portable neurodaily.profile JSON.
 ---
@@ -30,6 +30,28 @@ Minimum: a scholar name. Prefer one of:
 - Google Scholar profile URL (fetch manually; this skill does not scrape Scholar)
 
 If the name is ambiguous and no ORCID/affiliation is supplied, ask one short clarifying question before generating a profile.
+
+## Source discovery map
+
+Look beyond one database. Use the identity layer first, then works, then field
+context:
+
+| Direction | Examples | Why |
+|---|---|---|
+| Identity | ORCID, OpenAlex, Crossref, Semantic Scholar author IDs | disambiguation |
+| Biomedical papers | PubMed, Europe PMC, publisher pages | DOI/PMID, MeSH, affiliations |
+| Preprints | bioRxiv, medRxiv, arXiv, SSRN, Research Square | current work |
+| Clinical / regulatory | ClinicalTrials.gov, WHO ICTRP, FDA, EMA | trials and approvals |
+| Funding | NIH RePORTER, CORDIS, UKRI, NSFC, institutional pages | grants and lab focus |
+| IP / translation | USPTO, EPO/Espacenet, Google Patents | patents and technology transfer |
+| Data / software | Zenodo, Figshare, Dryad, GEO, OpenNeuro, GitHub | data/software outputs |
+| Human context | institutional profile, lab site, CV, Google Scholar | current role and missed papers |
+
+Full query examples and fallback rules:
+[`references/source-discovery.md`](references/source-discovery.md).
+
+Never merge author records on name alone. Anchor with ORCID, DOI/PMID,
+affiliation and coauthors; record every source URL and identifier.
 
 ## Workflow
 
@@ -135,9 +157,16 @@ Do not hand-edit in invented journals or metrics. If the evidence is thin, say s
 
 ### 3. Validate
 
+Use the strict config validator, not a bare JSON parser:
+
 ```bash
-python scripts/validate_profile.py neurodaily-profile.json
+python scripts/validate.py neurodaily-profile.json
 ```
+
+It reports exact JSON syntax errors and schema/type/enum/URL problems such as
+`sources.policy.feed_kinds[...]` or `journals[2].url` instead of a generic
+"invalid config". The older `validate_profile.py` remains available for
+compatibility.
 
 If NeuroDaily is installed, also run:
 
@@ -184,10 +213,12 @@ Never claim the profile is "the scholar's official interests". It is an **eviden
 - `scripts/collect_scholar.py` — ORCID/OpenAlex/PubMed evidence collector
 - `scripts/build_profile.py` — evidence → NeuroDaily profile
 - `scripts/field_journals.py` — curated field-leading journals
-- `scripts/validate_profile.py` — standalone structural validation
+- `scripts/validate.py` — strict JSON/schema/config validation with field paths
+- `scripts/validate_profile.py` — legacy structural validation
 - `references/profile-contract.md` — NeuroDaily profile format and mapping rules
 - `references/interest-inference.md` — how to infer disciplines/keywords
 - `references/top-journals.md` — field-journal catalog and its limits
+- `references/source-discovery.md` — broader public source discovery playbook
 - `examples/` — sample evidence and output
 
 ## Suggested supporting skills

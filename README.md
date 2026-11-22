@@ -1,4 +1,4 @@
-# NeuroDaily Scholar Profile v1.2.0
+# NeuroDaily Scholar Profile v1.3.0
 
 A reusable Agent Skill that turns a scholar's **public publication record** into a
 validated, portable [NeuroDaily](https://github.com/Koalalive/neurodaily) research
@@ -20,7 +20,9 @@ git clone https://github.com/Koalalive/neurodaily-scholar-profile.git \
 Or install with a skills CLI if your environment supports GitHub skill sources.
 
 The skill is defined by [`SKILL.md`](SKILL.md); scripts are dependency-free
-Python 3.10+.
+Python 3.10+. Start with the [source discovery playbook](references/source-discovery.md)
+for ORCID, OpenAlex, Crossref, PubMed, preprints, trials, grants, patents and
+data/software sources.
 
 ## Use
 
@@ -43,7 +45,7 @@ python scripts/build_profile.py evidence.json \
   --exclude pediatric --exclude anticancer \
   --out neurodaily-profile.json
 
-python scripts/validate_profile.py neurodaily-profile.json
+python scripts/validate.py neurodaily-profile.json
 ```
 
 Then import it into NeuroDaily:
@@ -101,6 +103,17 @@ A profile with `sources.policy.enabled = true` but `policy_feeds = []` will prod
 no policy/news section. The same applies when FDA sources are absent. The profile
 builder now emits psychiatry feeds and enables FDA sources; verify feeds before
 importing.
+
+## Strict validation
+
+```bash
+python scripts/validate.py neurodaily-profile.json
+```
+
+A file can be valid JSON and still be an invalid NeuroDaily config. The validator
+checks the wrapper, disciplines, search enums, source options, URL syntax, feed
+kinds, windows, journals, private fields, and JSON syntax (with line/column),
+instead of surfacing a generic "config is invalid" error.
 
 ## Field-leading journals
 
