@@ -120,3 +120,7 @@ python3 scripts/validate_profile.py examples/neurodaily-profile.example.json
 ## License
 
 MIT
+
+## License
+
+Apache License 2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
