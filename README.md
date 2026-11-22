@@ -1,4 +1,4 @@
-# NeuroDaily Scholar Profile v1.3.1
+# NeuroDaily Scholar Profile v1.3.2
 
 A reusable Agent Skill that turns a scholar's **public publication record** into a
 validated, portable [NeuroDaily](https://github.com/Koalalive/neurodaily) research

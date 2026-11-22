@@ -1,5 +1,5 @@
 ---
-version: 1.3.1
+version: 1.3.2
 name: neurodaily-scholar-profile
 description: Build a validated NeuroDaily research profile from a scholar's published work and stated interests. Use when asked to create or update a NeuroDaily configuration for a named researcher, PI, author, ORCID, PubMed author, or Google Scholar identity; collects ORCID/OpenAlex/PubMed evidence, infers disciplines, keywords, journals, and search rules, then exports one portable neurodaily.profile JSON.
 ---
