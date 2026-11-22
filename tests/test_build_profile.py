@@ -27,6 +27,7 @@ class BuildProfileTests(unittest.TestCase):
         self.assertEqual(config["profile"], "example-scholar")
         self.assertGreaterEqual(len(config["disciplines"]), 1)
         self.assertTrue(config["global_keywords"])
+        self.assertEqual(config["windows"]["funding_hours"], 168)
         self.assertIn("Neuron", [journal["name"] for journal in config["journals"]])
         errors, _ = validate(profile)
         self.assertEqual(errors, [])
