@@ -8,6 +8,17 @@ description: Build a validated NeuroDaily research profile from a scholar's publ
 
 Create a portable NeuroDaily profile from a scholar's **published record**, not from guesswork.
 
+## Scope: one scholar, lab, or research team
+
+This skill models **a person / lab / team**: "what is this researcher or team likely
+to care about?" It is not a topic-discovery skill and must not be used to build a
+general field profile such as "drug delivery" or "oncology" without a named team.
+
+- Use this skill for a PI, young investigator, lab, or research group.
+- Use `neurodaily-topic-profile` for a **topic/field** profile.
+- A team profile may combine multiple people's public records, but the output still
+  represents that team's interests, not the whole field.
+
 ## When to use
 
 Use this skill when the user asks to:

@@ -1,8 +1,12 @@
 # NeuroDaily Scholar Profile v1.3.2
 
-A reusable Agent Skill that turns a scholar's **public publication record** into a
-validated, portable [NeuroDaily](https://github.com/Koalalive/neurodaily) research
-profile.
+A reusable Agent Skill that turns **one scholar, lab, or research team's**
+public publication record into a validated, portable
+[NeuroDaily](https://github.com/Koalalive/neurodaily) research profile.
+
+It answers: **what is this researcher or team likely to care about?** It is not a
+topic/field-profile builder. Use `neurodaily-topic-profile` for "drug delivery" or
+another broad subject without a named team.
 
 It collects evidence from ORCID, OpenAlex and PubMed, infers disciplines,
 keywords and journals, writes a single `neurodaily.profile` JSON, and validates it
