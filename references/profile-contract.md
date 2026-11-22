@@ -54,6 +54,8 @@ An enabled discipline must have at least one of `keywords`, `mesh_terms`,
 - `query`: NeuroDaily's Boolean expression. Multi-word phrases must be quoted.
 - `sets`: named, reusable expressions (`"1": "TI=..."`).
 - `rules`: optional scoped expressions for `news`, `policy`, `trial`.
+- `authors`: optional tracked scholars; each is compiled as `AU="..."`.
+- `author_mode`: `intersect` (topic AND author) or `track` (topic OR author).
 - `journal_mode`: `any`, `only`, or `prefer`.
 - `sort`: `default`, `latest`, `relevance`, or `journal`.
 
@@ -65,8 +67,8 @@ An enabled discipline must have at least one of `keywords`, `mesh_terms`,
  "my_feed": {"type": "rss", "url": "https://example.org/feed.xml", "kind": "news"}}
 ```
 
-Built-in names: `journal`, `pubmed`, `arxiv`, `biorxiv`, `fda_drugs`,
-`fda_devices`, `trials`, `policy`. A custom source needs `type` + `url`.
+Built-in names include `journal`, `pubmed`, `arxiv`, `biorxiv`, `fda_drugs`,
+`fda_devices`, `trials`, `conferences`, `google_news_zh`, `policy`. A custom source needs `type` + `url`.
 
 ### `config.windows`
 

@@ -46,6 +46,10 @@ class BuildProfileTests(unittest.TestCase):
         self.assertTrue(config["sources"]["fda_devices"]["enabled"])
         self.assertGreaterEqual(len(config["policy_feeds"]), 5)
         self.assertIn("feed_kinds", config["sources"]["policy"])
+        self.assertIn("conferences", config["sources"])
+        self.assertIn("google_news_zh", config["sources"])
+        self.assertEqual(config["search"]["authors"], [])
+        self.assertEqual(config["search"]["author_mode"], "intersect")
         self.assertIn("depression", config["search"]["query"].casefold())
         names = [journal["name"] for journal in config["journals"]]
         self.assertIn("JAMA Psychiatry", names)

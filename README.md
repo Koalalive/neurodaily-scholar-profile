@@ -1,4 +1,4 @@
-# NeuroDaily Scholar Profile v1.3.2
+# NeuroDaily Scholar Profile v1.4.0
 
 A reusable Agent Skill that turns **one scholar, lab, or research team's**
 public publication record into a validated, portable
@@ -69,7 +69,8 @@ the full stack.
 
 `--mode author` creates an author-tracking query instead of an interest query.
 `--exclude` adds an `AND NOT (...)` cleanup clause. `--query` supplies an explicit
-query. `--no-field-journals` disables the field catalog; `--journals-limit`
+query. `--scholar "Nolan Williams"` adds a tracked author; use
+`--author-mode track` or `intersect`. `--no-field-journals` disables the field catalog; `--journals-limit`
 defaults to 20. Use repeated `--author-id` to merge split OpenAlex records after identity
 confirmation.
 
@@ -79,8 +80,10 @@ confirmation.
 - `global_keywords`
 - top journals from the scholar's works **plus** a curated field-leading catalog
   (author journals get reserved slots)
-- a conservative `search` block
-- default sources and retrieval windows
+- a conservative `search` block with optional `authors[]` / `author_mode`
+  (`intersect` or `track`)
+- default sources and retrieval windows, including `conferences` and
+  `google_news_zh` (the Chinese Google News discovery source)
 - domain policy/news RSS feeds when available; psychiatry also enables FDA
   drug/device sources for the industry section
 - no SMTP/API keys or local delivery settings

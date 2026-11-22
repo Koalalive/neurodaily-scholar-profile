@@ -1,5 +1,5 @@
 ---
-version: 1.3.2
+version: 1.4.0
 name: neurodaily-scholar-profile
 description: Build a validated NeuroDaily research profile from a scholar's published work and stated interests. Use when asked to create or update a NeuroDaily configuration for a named researcher, PI, author, ORCID, PubMed author, or Google Scholar identity; collects ORCID/OpenAlex/PubMed evidence, infers disciplines, keywords, journals, and search rules, then exports one portable neurodaily.profile JSON.
 ---
@@ -97,6 +97,7 @@ python scripts/build_profile.py evidence.json \
   --domain psychiatry \
   --mode interests \
   --exclude pediatric --exclude anticancer \
+  --scholar "Nolan Williams" --author-mode track \
   --out neurodaily-profile.json
 ```
 
@@ -108,6 +109,9 @@ python scripts/build_profile.py evidence.json \
 - `--query` supplies an explicit query and overrides generated queries.
 - `--no-field-journals` disables the curated field-leading catalog (author-only view).
 - `--journals-limit` defaults to 20.
+- `--scholar "Name"` adds an author to `search.authors` (repeatable).
+- `--author-mode track` tracks all new works by the author; `intersect` keeps only
+  works matching the topic query.
 
 This emits the NeuroDaily single-JSON format:
 
@@ -122,7 +126,7 @@ The profile includes:
 - top journals from **both** the scholar's record and a curated field-leading
   catalog (with RSS for known environment/forestry journals); at least 25% of
   slots are reserved for the scholar's own journals
-- a domain-aware `search` block
+- a domain-aware `search` block, including optional `authors` and `author_mode`
 - source presets: forestry disables arXiv/bioRxiv/trials/policy; neuroscience
   enables the full stack. Psychiatry enables FDA drug/device sources for the
   industry bucket.
@@ -176,7 +180,9 @@ python scripts/validate.py neurodaily-profile.json
 
 It reports exact JSON syntax errors and schema/type/enum/URL problems such as
 `sources.policy.feed_kinds[...]` or `journals[2].url` instead of a generic
-"invalid config". The older `validate_profile.py` remains available for
+"invalid config". The current profile contract also adds `search.authors` and
+`search.author_mode` (`intersect` / `track`), plus built-in `conferences` and
+`google_news_zh` source presets. The older `validate_profile.py` remains available for
 compatibility.
 
 If NeuroDaily is installed, also run:
