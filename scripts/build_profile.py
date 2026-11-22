@@ -313,7 +313,8 @@ def _journals(evidence: dict, limit: int) -> list[dict]:
 def build(evidence: dict, name: str | None = None, profile_id: str | None = None,
           journals_limit: int = 20, *, mode: str = "interests", domain: str | None = None,
           exclude: list[str] | None = None, query_override: str | None = None,
-          include_field_journals: bool = True) -> dict:
+          include_field_journals: bool = True, scholars: list[str] | None = None,
+          author_mode: str = "intersect") -> dict:
     works = evidence.get("works") or []
     if not works:
         raise ValueError("evidence contains no works; refusing to invent a profile")
@@ -338,6 +339,11 @@ def build(evidence: dict, name: str | None = None, profile_id: str | None = None
     if exclude and "AND NOT (" not in query:
         query = f"({query}) AND NOT (" + " OR ".join(_quote(word) for word in exclude) + ")"
     sources = {name: dict(opts) for name, opts in DOMAINS[selected_domain]["sources"].items()}
+    sources.setdefault("conferences", {"enabled": True, "max_results": 50, "lookback_days": 365})
+    sources.setdefault("google_news_zh", {
+        "enabled": True, "max_results": 100, "lookback_days": 2,
+        "queries": ["脑科学 OR 神经科学", "脑机接口", "脑电 研究", "脑磁图", "功能磁共振", "神经影像"],
+    })
     feed_kinds = {url: "paper" for url in DOMAIN_POLICY_FEEDS.get(selected_domain, [])
                   if any(host in url for host in JOURNAL_FEED_HOSTS)}
     feed_kinds.update({url: kind for url, kind in POLICY_FEED_KINDS.items()
@@ -350,6 +356,8 @@ def build(evidence: dict, name: str | None = None, profile_id: str | None = None
         "global_keywords": keywords,
         "search": {
             "query": query,
+            "authors": list(dict.fromkeys(scholars or [])),
+            "author_mode": "track" if author_mode == "track" else "intersect",
             "sets": {},
             "journal_mode": "prefer",
             "journals": top_journals,
@@ -384,6 +392,9 @@ def main() -> int:
     parser.add_argument("--query", default=None, help="explicit search query override")
     parser.add_argument("--no-field-journals", action="store_true",
                         help="do not add the curated field-leading journal catalog")
+    parser.add_argument("--scholar", action="append", default=[],
+                        help="track a named scholar (repeatable)")
+    parser.add_argument("--author-mode", choices=("track", "intersect"), default="intersect")
     parser.add_argument("--out", default="neurodaily-profile.json")
     args = parser.parse_args()
     with open(args.evidence, encoding="utf-8") as stream:
@@ -392,7 +403,8 @@ def main() -> int:
         profile = build(evidence, args.name, args.profile_id, args.journals_limit,
                         mode=args.mode, domain=args.domain, exclude=args.exclude,
                         query_override=args.query,
-                        include_field_journals=not args.no_field_journals)
+                        include_field_journals=not args.no_field_journals,
+                        scholars=args.scholar, author_mode=args.author_mode)
     except ValueError as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 2

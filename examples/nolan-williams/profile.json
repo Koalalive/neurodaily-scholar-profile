@@ -69,6 +69,10 @@
     ],
     "search": {
       "query": "depression OR PTSD OR \"transcranial magnetic stimulation\" OR neuromodulation OR \"deep brain stimulation\"",
+      "authors": [
+        "Nolan Williams"
+      ],
+      "author_mode": "track",
       "sets": {},
       "journal_mode": "prefer",
       "journals": [
@@ -139,6 +143,24 @@
         "enabled": true,
         "max_results": 100,
         "lookback_days": 2
+      },
+      "conferences": {
+        "enabled": true,
+        "max_results": 50,
+        "lookback_days": 365
+      },
+      "google_news_zh": {
+        "enabled": true,
+        "max_results": 100,
+        "lookback_days": 2,
+        "queries": [
+          "脑科学 OR 神经科学",
+          "脑机接口",
+          "脑电 研究",
+          "脑磁图",
+          "功能磁共振",
+          "神经影像"
+        ]
       }
     },
     "windows": {
