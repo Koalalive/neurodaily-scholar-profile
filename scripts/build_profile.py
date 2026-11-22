@@ -40,6 +40,16 @@ JOURNAL_CANONICAL = {
     "npj mental health research": "npj Mental Health Research",
 }
 
+POLICY_FEED_KINDS = {
+    "https://www.science.org/rss/news_current.xml": "news",
+    "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml": "funding",
+}
+JOURNAL_FEED_HOSTS = (
+    "nature.com/subjects/", "nature.com/mp.rss", "nature.com/nm.rss",
+    "nature.com/npjmentalhealth.rss", "nature.com/natmentalhealth.rss",
+    "psychiatryonline.org/action/showFeed", "thelancet.com/rssfeed",
+)
+
 DOMAINS = {
     "forestry": {
         "needles": ("forest", "soil", "erosion", "hydrology", "vegetation",
@@ -138,22 +148,23 @@ DOMAIN_QUERIES = {
 # private pages. Review them before importing a profile.
 DOMAIN_POLICY_FEEDS = {
     "psychiatry": [
-        "https://www.nimh.nih.gov/news/index.rss",
-        "https://nida.nih.gov/rss.xml",
-        "https://www.ninds.nih.gov/news-events/news-releases/rss.xml",
-        "https://www.sfn.org/news",
         "https://www.nature.com/subjects/neuroscience.rss",
         "https://www.nature.com/subjects/psychiatric-disorders.rss",
         "https://www.nature.com/mp.rss",
         "https://www.nature.com/nm.rss",
+        "https://www.nature.com/npjmentalhealth.rss",
+        "https://www.nature.com/natmentalhealth.rss",
+        "https://www.science.org/rss/news_current.xml",
+        "https://www.psychiatryonline.org/action/showFeed?type=etoc&feed=rss&jc=ajp",
+        "https://www.thelancet.com/rssfeed/lanpsy_current.xml",
         "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
     ],
     "neuroscience": [
-        "https://www.nimh.nih.gov/news/index.rss",
-        "https://www.ninds.nih.gov/news-events/news-releases/rss.xml",
-        "https://www.sfn.org/news",
         "https://www.nature.com/subjects/neuroscience.rss",
         "https://www.nature.com/nn.rss",
+        "https://www.nature.com/npjmentalhealth.rss",
+        "https://www.nature.com/natmentalhealth.rss",
+        "https://www.science.org/rss/news_current.xml",
     ],
 }
 
@@ -326,6 +337,13 @@ def build(evidence: dict, name: str | None = None, profile_id: str | None = None
         query = _query(keywords, exclude or [], mode, display)
     if exclude and "AND NOT (" not in query:
         query = f"({query}) AND NOT (" + " OR ".join(_quote(word) for word in exclude) + ")"
+    sources = {name: dict(opts) for name, opts in DOMAINS[selected_domain]["sources"].items()}
+    feed_kinds = {url: "paper" for url in DOMAIN_POLICY_FEEDS.get(selected_domain, [])
+                  if any(host in url for host in JOURNAL_FEED_HOSTS)}
+    feed_kinds.update({url: kind for url, kind in POLICY_FEED_KINDS.items()
+                       if url in DOMAIN_POLICY_FEEDS.get(selected_domain, [])})
+    if feed_kinds:
+        sources["policy"] = {**sources.get("policy", {}), "feed_kinds": feed_kinds}
     config = {
         "profile": pid,
         "disciplines": _disciplines(keywords),
@@ -337,7 +355,7 @@ def build(evidence: dict, name: str | None = None, profile_id: str | None = None
             "journals": top_journals,
             "sort": "relevance" if mode == "interests" else "latest",
         },
-        "sources": DOMAINS[selected_domain]["sources"],
+        "sources": sources,
         "windows": {
             "daily_paper_hours": 36,
             "manual_paper_hours": 240,

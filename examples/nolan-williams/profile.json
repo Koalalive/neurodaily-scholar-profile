@@ -116,7 +116,19 @@
       "policy": {
         "enabled": true,
         "max_results": 100,
-        "lookback_days": 2
+        "lookback_days": 2,
+        "feed_kinds": {
+          "https://www.nature.com/subjects/neuroscience.rss": "paper",
+          "https://www.nature.com/subjects/psychiatric-disorders.rss": "paper",
+          "https://www.nature.com/mp.rss": "paper",
+          "https://www.nature.com/nm.rss": "paper",
+          "https://www.nature.com/npjmentalhealth.rss": "paper",
+          "https://www.nature.com/natmentalhealth.rss": "paper",
+          "https://www.psychiatryonline.org/action/showFeed?type=etoc&feed=rss&jc=ajp": "paper",
+          "https://www.thelancet.com/rssfeed/lanpsy_current.xml": "paper",
+          "https://www.science.org/rss/news_current.xml": "news",
+          "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml": "funding"
+        }
       },
       "fda_drugs": {
         "enabled": true,
@@ -138,14 +150,15 @@
       "other_lookback_days": 7
     },
     "policy_feeds": [
-      "https://www.nimh.nih.gov/news/index.rss",
-      "https://nida.nih.gov/rss.xml",
-      "https://www.ninds.nih.gov/news-events/news-releases/rss.xml",
-      "https://www.sfn.org/news",
       "https://www.nature.com/subjects/neuroscience.rss",
       "https://www.nature.com/subjects/psychiatric-disorders.rss",
       "https://www.nature.com/mp.rss",
       "https://www.nature.com/nm.rss",
+      "https://www.nature.com/npjmentalhealth.rss",
+      "https://www.nature.com/natmentalhealth.rss",
+      "https://www.science.org/rss/news_current.xml",
+      "https://www.psychiatryonline.org/action/showFeed?type=etoc&feed=rss&jc=ajp",
+      "https://www.thelancet.com/rssfeed/lanpsy_current.xml",
       "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml"
     ],
     "journals": [
