@@ -94,8 +94,16 @@ def main() -> int:
     parser.add_argument("profile")
     parser.add_argument("--json", action="store_true")
     args = parser.parse_args()
-    with open(args.profile, encoding="utf-8") as stream:
-        document = json.load(stream)
+    try:
+        with open(args.profile, encoding="utf-8") as stream:
+            document = json.load(stream)
+    except OSError as exc:
+        print(f"error: cannot read {args.profile}: {exc}", file=sys.stderr)
+        return 1
+    except json.JSONDecodeError as exc:
+        print(f"error: invalid JSON at line {exc.lineno} column {exc.colno}: {exc.msg}",
+              file=sys.stderr)
+        return 1
     errors, warnings = validate(document)
     result = {"ok": not errors, "errors": errors, "warnings": warnings}
     if args.json:
