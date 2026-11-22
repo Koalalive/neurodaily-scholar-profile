@@ -1,0 +1,57 @@
+{
+  "format": "neurodaily.scholar-evidence",
+  "version": 1,
+  "retrieved_at": "2026-11-22T00:00:00+00:00",
+  "scholar": {
+    "name": "Example Scholar",
+    "orcid": "0000-0002-1825-0097",
+    "affiliation": "Example University",
+    "openalex_author": {
+      "id": "https://openalex.org/A0000000000",
+      "display_name": "Example Scholar"
+    }
+  },
+  "works": [
+    {
+      "title": "Hippocampal replay supports flexible memory-guided decisions",
+      "year": 2025,
+      "journal": "Neuron",
+      "doi": "10.0000/example.001",
+      "url": "https://doi.org/10.0000/example.001",
+      "source": "OpenAlex",
+      "concepts": ["Neuroscience", "Cognitive Neuroscience", "Hippocampus"]
+    },
+    {
+      "title": "Prefrontal circuit dynamics during working memory",
+      "year": 2024,
+      "journal": "Nature Neuroscience",
+      "doi": "10.0000/example.002",
+      "url": "https://doi.org/10.0000/example.002",
+      "source": "OpenAlex",
+      "concepts": ["Neuroscience", "Cognitive Neuroscience", "Prefrontal Cortex"]
+    },
+    {
+      "title": "Closed-loop stimulation for refractory focal epilepsy",
+      "year": 2023,
+      "journal": "Epilepsia",
+      "doi": "10.0000/example.003",
+      "url": "https://doi.org/10.0000/example.003",
+      "source": "PubMed",
+      "concepts": ["Neuroscience", "Epilepsy", "Neurostimulation"]
+    }
+  ],
+  "top_concepts": [
+    {"name": "Neuroscience", "count": 3},
+    {"name": "Cognitive Neuroscience", "count": 2},
+    {"name": "Hippocampus", "count": 1},
+    {"name": "Prefrontal Cortex", "count": 1},
+    {"name": "Epilepsy", "count": 1}
+  ],
+  "top_journals": [
+    {"name": "Neuron", "count": 1},
+    {"name": "Nature Neuroscience", "count": 1},
+    {"name": "Epilepsia", "count": 1}
+  ],
+  "author_candidates": [],
+  "warnings": []
+}

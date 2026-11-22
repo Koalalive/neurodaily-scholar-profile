@@ -1,0 +1,167 @@
+{
+  "format": "neurodaily.profile",
+  "version": 1,
+  "config": {
+    "profile": "example-scholar",
+    "disciplines": [
+      {
+        "name": "Neuroscience",
+        "arxiv_cats": [
+          "q-bio.NC"
+        ],
+        "mesh_terms": [],
+        "bio_cats": [
+          "neuroscience"
+        ],
+        "keywords": [
+          "Neuroscience"
+        ],
+        "enabled": true
+      },
+      {
+        "name": "Cognitive Neuroscience",
+        "arxiv_cats": [
+          "q-bio.NC"
+        ],
+        "mesh_terms": [],
+        "bio_cats": [
+          "neuroscience"
+        ],
+        "keywords": [
+          "Cognitive Neuroscience"
+        ],
+        "enabled": true
+      },
+      {
+        "name": "Hippocampus",
+        "arxiv_cats": [],
+        "mesh_terms": [],
+        "bio_cats": [],
+        "keywords": [
+          "Hippocampus"
+        ],
+        "enabled": true
+      },
+      {
+        "name": "Prefrontal Cortex",
+        "arxiv_cats": [],
+        "mesh_terms": [],
+        "bio_cats": [],
+        "keywords": [
+          "Prefrontal Cortex"
+        ],
+        "enabled": true
+      }
+    ],
+    "global_keywords": [
+      "Neuroscience",
+      "Cognitive Neuroscience",
+      "Hippocampus",
+      "Prefrontal Cortex",
+      "Epilepsy"
+    ],
+    "search": {
+      "query": "Neuroscience",
+      "sets": {},
+      "journal_mode": "any",
+      "journals": [
+        "Neuron",
+        "Nature Neuroscience",
+        "Epilepsia"
+      ],
+      "sort": "relevance"
+    },
+    "sources": {
+      "journal": {
+        "enabled": true,
+        "max_results": 300,
+        "lookback_days": 2
+      },
+      "pubmed": {
+        "enabled": true,
+        "max_results": 300,
+        "lookback_days": 2
+      },
+      "arxiv": {
+        "enabled": true,
+        "max_results": 200,
+        "lookback_days": 2
+      },
+      "biorxiv": {
+        "enabled": true,
+        "max_results": 200,
+        "lookback_days": 2
+      },
+      "trials": {
+        "enabled": true,
+        "max_results": 100,
+        "lookback_days": 2
+      },
+      "policy": {
+        "enabled": true,
+        "max_results": 100,
+        "lookback_days": 2
+      },
+      "fda_drugs": {
+        "enabled": false,
+        "max_results": 100,
+        "lookback_days": 2
+      },
+      "fda_devices": {
+        "enabled": false,
+        "max_results": 100,
+        "lookback_days": 2
+      }
+    },
+    "windows": {
+      "daily_paper_hours": 36,
+      "manual_paper_hours": 240,
+      "trials_hours": 36,
+      "funding_hours": 36,
+      "news_hours": 36,
+      "other_lookback_days": 7
+    },
+    "policy_feeds": [],
+    "journals": [
+      {
+        "name": "Neuron",
+        "url": "",
+        "rss": "",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "Nature Neuroscience",
+        "url": "",
+        "rss": "",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "Epilepsia",
+        "url": "",
+        "rss": "",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      }
+    ]
+  }
+}

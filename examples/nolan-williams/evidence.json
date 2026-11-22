@@ -1,0 +1,5025 @@
+{
+  "format": "neurodaily.scholar-evidence",
+  "version": 1,
+  "retrieved_at": "2026-11-22T11:52:15.499498+00:00",
+  "scholar": {
+    "name": "Nolan Williams",
+    "orcid": "0000-0003-4368-3203",
+    "affiliation": "Stanford University",
+    "openalex_author": {
+      "id": "https://openalex.org/A5074022923",
+      "orcid": "https://orcid.org/0000-0003-4368-3203",
+      "observed_orcids": [
+        "https://orcid.org/0000-0003-4368-3203"
+      ],
+      "display_name": "Nolan Williams",
+      "raw_author_names": [
+        "N. R. Williams",
+        "N. Williams",
+        "N.R. Williams",
+        "Nolan R Williams",
+        "Nolan R. Williams",
+        "Nolan Williams",
+        "Nolan R. Williams",
+        "Williams, Nolan"
+      ],
+      "full_name": "Nolan  R. Williams",
+      "works_count": 249,
+      "cited_by_count": 7245,
+      "summary_stats": {
+        "2yr_mean_citedness": 17.037735849056602,
+        "h_index": 34,
+        "i10_index": 65
+      },
+      "ids": {
+        "openalex": "https://openalex.org/A5074022923",
+        "orcid": "https://orcid.org/0000-0003-4368-3203",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4368-3203"
+        ]
+      },
+      "affiliations": [
+        {
+          "institution": {
+            "id": "https://openalex.org/I118347636",
+            "ror": "https://ror.org/019wvm592",
+            "display_name": "Australian National University",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I118347636"
+            ]
+          },
+          "years": [
+            2023
+          ]
+        },
+        {
+          "institution": {
+            "id": "https://openalex.org/I153297377",
+            "ror": "https://ror.org/012jban78",
+            "display_name": "Medical University of South Carolina",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I153297377"
+            ]
+          },
+          "years": [
+            2017,
+            2015,
+            2014,
+            2013,
+            2012,
+            2009
+          ]
+        },
+        {
+          "institution": {
+            "id": "https://openalex.org/I1743320",
+            "ror": "https://ror.org/04f812k67",
+            "display_name": "Palo Alto University",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I1743320"
+            ]
+          },
+          "years": [
+            2020,
+            2018
+          ]
+        },
+        {
+          "institution": {
+            "id": "https://openalex.org/I185261750",
+            "ror": "https://ror.org/03dbr7087",
+            "display_name": "University of Toronto",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          "years": [
+            2023
+          ]
+        },
+        {
+          "institution": {
+            "id": "https://openalex.org/I204866599",
+            "ror": "https://ror.org/00nr17z89",
+            "display_name": "VA Palo Alto Health Care System",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1322918889",
+              "https://openalex.org/I204866599",
+              "https://openalex.org/I2799886695",
+              "https://openalex.org/I4210125474"
+            ]
+          },
+          "years": [
+            2018
+          ]
+        },
+        {
+          "institution": {
+            "id": "https://openalex.org/I32597200",
+            "ror": "https://ror.org/00cv9y106",
+            "display_name": "Ghent University",
+            "country_code": "BE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I32597200"
+            ]
+          },
+          "years": [
+            2023
+          ]
+        },
+        {
+          "institution": {
+            "id": "https://openalex.org/I4210093092",
+            "ror": "https://ror.org/01e310919",
+            "display_name": "Monash Alfred Psychiatry Research centre",
+            "country_code": "AU",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210093092"
+            ]
+          },
+          "years": [
+            2023
+          ]
+        },
+        {
+          "institution": {
+            "id": "https://openalex.org/I4210137306",
+            "ror": "https://ror.org/03mtd9a03",
+            "display_name": "Stanford Medicine",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210137306",
+              "https://openalex.org/I97018004"
+            ]
+          },
+          "years": [
+            2026,
+            2025,
+            2024,
+            2023,
+            2022,
+            2021,
+            2020,
+            2019,
+            2017,
+            2016
+          ]
+        },
+        {
+          "institution": {
+            "id": "https://openalex.org/I56590836",
+            "ror": "https://ror.org/02bfwt286",
+            "display_name": "Monash University",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I56590836"
+            ]
+          },
+          "years": [
+            2023
+          ]
+        },
+        {
+          "institution": {
+            "id": "https://openalex.org/I76134821",
+            "ror": "https://ror.org/05n3x4p02",
+            "display_name": "Medical University of Vienna",
+            "country_code": "AT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I76134821"
+            ]
+          },
+          "years": [
+            2025
+          ]
+        },
+        {
+          "institution": {
+            "id": "https://openalex.org/I97018004",
+            "ror": "https://ror.org/00f54p054",
+            "display_name": "Stanford University",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          },
+          "years": [
+            2026,
+            2025,
+            2024,
+            2023,
+            2022,
+            2021,
+            2020,
+            2019,
+            2018,
+            2017,
+            2016,
+            2015
+          ]
+        }
+      ],
+      "last_known_institutions": [
+        {
+          "id": "https://openalex.org/I4210137306",
+          "ror": "https://ror.org/03mtd9a03",
+          "display_name": "Stanford Medicine",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210137306",
+            "https://openalex.org/I97018004"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I97018004",
+          "ror": "https://ror.org/00f54p054",
+          "display_name": "Stanford University",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "id": "https://openalex.org/T10614",
+          "display_name": "Transcranial Magnetic Stimulation Studies",
+          "count": 133,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2808",
+            "display_name": "Neurology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/28",
+            "display_name": "Neuroscience"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10919",
+          "display_name": "Deep Brain Stimulation and Movement Disorders",
+          "count": 81,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2728",
+            "display_name": "Clinical Neurology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/27",
+            "display_name": "Medicine"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11071",
+          "display_name": "Treatment of Major Depression",
+          "count": 81,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2736",
+            "display_name": "Pharmacology (medical)"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/27",
+            "display_name": "Medicine"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11921",
+          "display_name": "Electroconvulsive Therapy Studies",
+          "count": 76,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2738",
+            "display_name": "Psychiatry and Mental health"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/27",
+            "display_name": "Medicine"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11123",
+          "display_name": "Obsessive-Compulsive Spectrum Disorders",
+          "count": 26,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3203",
+            "display_name": "Clinical Psychology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/32",
+            "display_name": "Psychology"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        }
+      ],
+      "topic_share": [
+        {
+          "id": "https://openalex.org/T10614",
+          "display_name": "Transcranial Magnetic Stimulation Studies",
+          "value": 0.0009557,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2808",
+            "display_name": "Neurology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/28",
+            "display_name": "Neuroscience"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11921",
+          "display_name": "Electroconvulsive Therapy Studies",
+          "value": 0.0008229,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2738",
+            "display_name": "Psychiatry and Mental health"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/27",
+            "display_name": "Medicine"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12553",
+          "display_name": "Psychedelics and Drug Studies",
+          "value": 0.0003253,
+          "subfield": {
+            "id": "https://openalex.org/subfields/3203",
+            "display_name": "Clinical Psychology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/32",
+            "display_name": "Psychology"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/2",
+            "display_name": "Social Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10919",
+          "display_name": "Deep Brain Stimulation and Movement Disorders",
+          "value": 0.000317,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2728",
+            "display_name": "Clinical Neurology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/27",
+            "display_name": "Medicine"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/4",
+            "display_name": "Health Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T12580",
+          "display_name": "Vagus Nerve Stimulation Research",
+          "value": 0.0003163,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2808",
+            "display_name": "Neurology"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/28",
+            "display_name": "Neuroscience"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/1",
+            "display_name": "Life Sciences"
+          }
+        }
+      ],
+      "x_concepts": [
+        {
+          "id": "71924100",
+          "wikidata": "https://www.wikidata.org/wiki/Q11190",
+          "display_name": "Medicine",
+          "score": 0.9037303924560547
+        },
+        {
+          "id": "24998067",
+          "wikidata": "https://www.wikidata.org/wiki/Q4114622",
+          "display_name": "Stimulation",
+          "score": 0.8422623872756958
+        },
+        {
+          "id": "169760540",
+          "wikidata": "https://www.wikidata.org/wiki/Q207011",
+          "display_name": "Neuroscience",
+          "score": 0.8094742894172668
+        },
+        {
+          "id": "15744967",
+          "wikidata": "https://www.wikidata.org/wiki/Q9418",
+          "display_name": "Psychology",
+          "score": 0.7937914133071899
+        },
+        {
+          "id": "126322002",
+          "wikidata": "https://www.wikidata.org/wiki/Q11180",
+          "display_name": "Internal medicine",
+          "score": 0.5803999900817871
+        }
+      ],
+      "counts_by_year": [
+        {
+          "year": 2009,
+          "works_count": 2,
+          "oa_works_count": 0,
+          "cited_by_count": 0
+        },
+        {
+          "year": 2012,
+          "works_count": 2,
+          "oa_works_count": 1,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2013,
+          "works_count": 8,
+          "oa_works_count": 3,
+          "cited_by_count": 10
+        },
+        {
+          "year": 2014,
+          "works_count": 9,
+          "oa_works_count": 6,
+          "cited_by_count": 41
+        },
+        {
+          "year": 2015,
+          "works_count": 6,
+          "oa_works_count": 3,
+          "cited_by_count": 79
+        },
+        {
+          "year": 2016,
+          "works_count": 3,
+          "oa_works_count": 1,
+          "cited_by_count": 101
+        },
+        {
+          "year": 2017,
+          "works_count": 11,
+          "oa_works_count": 5,
+          "cited_by_count": 110
+        },
+        {
+          "year": 2018,
+          "works_count": 5,
+          "oa_works_count": 3,
+          "cited_by_count": 131
+        },
+        {
+          "year": 2019,
+          "works_count": 31,
+          "oa_works_count": 17,
+          "cited_by_count": 218
+        },
+        {
+          "year": 2020,
+          "works_count": 11,
+          "oa_works_count": 4,
+          "cited_by_count": 317
+        },
+        {
+          "year": 2021,
+          "works_count": 17,
+          "oa_works_count": 11,
+          "cited_by_count": 382
+        },
+        {
+          "year": 2022,
+          "works_count": 18,
+          "oa_works_count": 2,
+          "cited_by_count": 459
+        },
+        {
+          "year": 2023,
+          "works_count": 23,
+          "oa_works_count": 19,
+          "cited_by_count": 638
+        },
+        {
+          "year": 2024,
+          "works_count": 30,
+          "oa_works_count": 13,
+          "cited_by_count": 1149
+        },
+        {
+          "year": 2025,
+          "works_count": 31,
+          "oa_works_count": 23,
+          "cited_by_count": 1607
+        },
+        {
+          "year": 2026,
+          "works_count": 23,
+          "oa_works_count": 18,
+          "cited_by_count": 1981
+        }
+      ],
+      "display_name_alternatives": [
+        "N. R. Williams",
+        "N. Williams",
+        "N.R. Williams",
+        "Nolan R Williams",
+        "Nolan R. Williams",
+        "Nolan Williams",
+        "Nolan R. Williams",
+        "Williams, Nolan"
+      ],
+      "block_key": "n williams",
+      "works_api_url": "https://api.openalex.org/works?filter=author.id:A5074022923",
+      "awards_count": 3,
+      "awards_api_url": "https://api.openalex.org/awards?filter=investigators.author.id:A5074022923",
+      "updated_date": "2026-11-21T13:19:37",
+      "created_date": "2016-06-24T00:00:00"
+    },
+    "openalex_authors": [
+      "A5074022923"
+    ]
+  },
+  "works": [
+    {
+      "title": "Electrographic cue-reactivity co-localizes with accumbens deep brain stimulation in a case of opioid use disorder",
+      "year": 2026,
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-68758-w",
+      "source": "ORCID",
+      "concepts": [
+        "Deep brain stimulation",
+        "Nucleus accumbens",
+        "Neuromodulation",
+        "Opioid use disorder",
+        "Neuroscience",
+        "Medicine",
+        "Electrophysiology",
+        "Stimulation",
+        "Craving",
+        "Opioid",
+        "Population",
+        "Deep transcranial magnetic stimulation",
+        "Anesthesia",
+        "Brain stimulation",
+        "Brain stimulation reward",
+        "Neuroimaging",
+        "Psychology",
+        "Central nervous system",
+        "Pathophysiology",
+        "Morphine",
+        "Addiction",
+        "Lead (geology)",
+        "Electroencephalography",
+        "Subthalamic nucleus",
+        "Psychiatry",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Neurotransmitter Receptor Influence on Behavior"
+      ],
+      "url": "https://doi.org/10.1038/s41467-026-68758-w"
+    },
+    {
+      "title": "Psychedelics in Psychiatry",
+      "year": 2026,
+      "journal": "Springer eBooks",
+      "doi": "10.1007/978-3-032-31497-0_6",
+      "source": "ORCID",
+      "concepts": [
+        "Psychology",
+        "Clinical psychiatry",
+        "Psychotherapist",
+        "Interpretation (philosophy)",
+        "Psychiatry",
+        "Class (philosophy)",
+        "Medicine",
+        "MEDLINE",
+        "Biological psychiatry",
+        "Conjunction (astronomy)",
+        "Animal testing",
+        "Adverse effect",
+        "Psychedelics and Drug Studies",
+        "Treatment of Major Depression",
+        "Pain Management and Placebo Effect"
+      ],
+      "url": "https://doi.org/10.1007/978-3-032-31497-0_6"
+    },
+    {
+      "title": "Is ibogaine treatment durable? 12-month follow-up of magnesium–ibogaine therapy (MISTIC) in Special Operations Veterans with traumatic brain injuries",
+      "year": 2025,
+      "journal": "",
+      "doi": "10.21203/rs.3.rs-6909189/v1",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Functional neuroimaging highlights sex as a critical variable in depression research",
+      "year": 2025,
+      "journal": "Nature Mental Health",
+      "doi": "10.1038/s44220-025-00477-5",
+      "source": "ORCID",
+      "concepts": [
+        "Neuroimaging",
+        "Depression (economics)",
+        "Psychology",
+        "Functional neuroimaging",
+        "Clinical psychology",
+        "Neuroscience",
+        "Economics",
+        "Macroeconomics",
+        "Functional Brain Connectivity Studies",
+        "Treatment of Major Depression",
+        "Neural and Behavioral Psychology Studies"
+      ],
+      "url": "https://doi.org/10.1038/s44220-025-00477-5"
+    },
+    {
+      "title": "Magnesium-ibogaine therapy effects on cortical oscillations and neural complexity in veterans with traumatic brain injury",
+      "year": 2025,
+      "journal": "NATURE MENTAL HEALTH",
+      "doi": "10.1038/s44220-025-00463-x",
+      "source": "ORCID",
+      "concepts": [
+        "Traumatic brain injury",
+        "Neuroscience",
+        "Medicine",
+        "Psychology",
+        "Psychiatry",
+        "Traumatic Brain Injury Research",
+        "Psychedelics and Drug Studies",
+        "Transcranial Magnetic Stimulation Studies"
+      ],
+      "url": "https://doi.org/10.1038/s44220-025-00463-x"
+    },
+    {
+      "title": "Trigeminal Nerve Stimulation as a Semi-Active Control Condition in TMS Clinical Trials: Evidence From Heart-Brain Coupling and Clinical Outcomes.",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2025.07.004",
+      "source": "ORCID",
+      "concepts": [
+        "Medicine",
+        "Stimulation",
+        "Trigeminal nerve",
+        "Neuroscience",
+        "Brain stimulation",
+        "Clinical trial",
+        "Anesthesia",
+        "Physical medicine and rehabilitation",
+        "Internal medicine",
+        "Psychology",
+        "Transcranial Magnetic Stimulation Studies",
+        "Vagus Nerve Stimulation Research",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1016/j.brs.2025.07.004"
+    },
+    {
+      "title": "A new flexible coil setup to measure interleaved TMS-fMRI response during accelerated iTBS.",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2025.06.006",
+      "source": "ORCID",
+      "concepts": [
+        "Measure (data warehouse)",
+        "Electromagnetic coil",
+        "Computer science",
+        "Electrical engineering",
+        "Engineering",
+        "Data mining",
+        "Transcranial Magnetic Stimulation Studies",
+        "Advanced MRI Techniques and Applications",
+        "Advanced Neuroimaging Techniques and Applications"
+      ],
+      "url": "https://doi.org/10.1016/j.brs.2025.06.006"
+    },
+    {
+      "title": "Interoception Biomarkers for Precision Neuromodulation",
+      "year": 2025,
+      "journal": "BIOLOGICAL PSYCHIATRY-COGNITIVE NEUROSCIENCE AND NEUROIMAGING",
+      "doi": "10.1016/j.bpsc.2025.03.002",
+      "source": "ORCID",
+      "concepts": [
+        "Interoception",
+        "Neuromodulation",
+        "Neuroscience",
+        "Psychology",
+        "Medicine",
+        "Perception",
+        "Stimulation",
+        "Vagus Nerve Stimulation Research",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Psychosomatic Disorders and Their Treatments"
+      ],
+      "url": "https://doi.org/10.1016/j.bpsc.2025.03.002"
+    },
+    {
+      "title": "Stereo-encephalography-guided multi-lead deep brain stimulation for treatment-refractory obsessive compulsive disorder – study design and individualized surgical targeting approach",
+      "year": 2025,
+      "journal": "",
+      "doi": "10.1101/2025.04.17.25325961",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Durability of clinical benefit with Stanford Neuromodulation Therapy (SNT) in treatment-resistant depression.",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2025.04.006",
+      "source": "ORCID",
+      "concepts": [
+        "Neuromodulation",
+        "Depression (economics)",
+        "Psychology",
+        "Medicine",
+        "Psychotherapist",
+        "Neuroscience",
+        "Keynesian economics",
+        "Central nervous system",
+        "Economics",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Deep Brain Stimulation and Movement Disorders"
+      ],
+      "url": "https://doi.org/10.1016/j.brs.2025.04.006"
+    },
+    {
+      "title": "Towards accredited clinical training in brain stimulation: Proceedings from the Brain Stimulation Subspecialty Summits.",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2025.02.012",
+      "source": "ORCID",
+      "concepts": [
+        "Subspecialty",
+        "Accreditation",
+        "Stimulation",
+        "Brain stimulation",
+        "Medicine",
+        "Neuroscience",
+        "Psychology",
+        "Medical education",
+        "Family medicine",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Innovations in Medical Education",
+        "Transcranial Magnetic Stimulation Studies"
+      ],
+      "url": "https://doi.org/10.1016/j.brs.2025.02.012"
+    },
+    {
+      "title": "Localizing electrophysiologic cue-reactivity within the nucleus accumbens guides deep brain stimulation for opioid use disorder",
+      "year": 2024,
+      "journal": "",
+      "doi": "10.1101/2024.12.30.630822",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Difficult to Treat Depression: Focus on Approach, Algorithms, and Access.",
+      "year": 2024,
+      "journal": "The Journal of clinical psychiatry",
+      "doi": "10.4088/jcp.psprmdd2408ah",
+      "source": "ORCID",
+      "concepts": [
+        "Depression (economics)",
+        "Psychology",
+        "Psychotherapist",
+        "Psychiatry",
+        "Medicine",
+        "Macroeconomics",
+        "Economics",
+        "Treatment of Major Depression",
+        "Mental Health Treatment and Access",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.4088/jcp.psprmdd2408ah"
+    },
+    {
+      "title": "Early differences in lassitude predicts outcomes in Stanford Neuromodulation Therapy for difficult to treat depression.",
+      "year": 2024,
+      "journal": "Npj mental health research",
+      "doi": "10.1038/s44184-024-00099-2",
+      "source": "ORCID",
+      "concepts": [
+        "Depression (economics)",
+        "Neuromodulation",
+        "Psychology",
+        "Rating scale",
+        "Randomized controlled trial",
+        "Clinical psychology",
+        "Medicine",
+        "Internal medicine",
+        "Developmental psychology",
+        "Stimulation",
+        "Macroeconomics",
+        "Economics",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression"
+      ],
+      "url": "https://doi.org/10.1038/s44184-024-00099-2"
+    },
+    {
+      "title": "Durability of clinical benefit with Stanford Neuromodulation Therapy (SNT) in treatment-resistant depression: assessment of sustained remission and response following index treatment",
+      "year": 2024,
+      "journal": "Neuromodec Journal",
+      "doi": "10.31641/nmj-rifz5917",
+      "source": "ORCID",
+      "concepts": [
+        "Depression (economics)",
+        "Treatment-resistant depression",
+        "Medicine",
+        "Internal medicine",
+        "Psychology",
+        "Major depressive disorder",
+        "Keynesian economics",
+        "Economics",
+        "Amygdala",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Treatment of Major Depression",
+        "Vagus Nerve Stimulation Research"
+      ],
+      "url": "https://doi.org/10.31641/nmj-rifz5917"
+    },
+    {
+      "title": "Strategies to Mitigate Scalp Discomfort during Repetitive Transcranial Magnetic Stimulation.",
+      "year": 2024,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.09.004",
+      "source": "ORCID",
+      "concepts": [
+        "Transcranial magnetic stimulation",
+        "Scalp",
+        "Medicine",
+        "Physical medicine and rehabilitation",
+        "Stimulation",
+        "Neuroscience",
+        "Psychology",
+        "Surgery",
+        "Transcranial Magnetic Stimulation Studies",
+        "Electroconvulsive Therapy Studies",
+        "Deep Brain Stimulation and Movement Disorders"
+      ],
+      "url": "https://doi.org/10.1016/j.brs.2024.09.004"
+    },
+    {
+      "title": "Frontostriatal salience network expansion in individuals in depression.",
+      "year": 2024,
+      "journal": "Nature",
+      "doi": "10.1038/s41586-024-07805-2",
+      "source": "ORCID",
+      "concepts": [
+        "Neuroimaging",
+        "Salience (neuroscience)",
+        "Depression (economics)",
+        "Psychology",
+        "Neuroscience",
+        "Identification (biology)",
+        "Disease",
+        "Psychiatry",
+        "Cognitive psychology",
+        "Medicine",
+        "Biology",
+        "Internal medicine",
+        "Economics",
+        "Macroeconomics",
+        "Botany",
+        "Functional Brain Connectivity Studies",
+        "Neural and Behavioral Psychology Studies",
+        "Mental Health Research Topics"
+      ],
+      "url": "https://doi.org/10.1038/s41586-024-07805-2"
+    },
+    {
+      "title": "Fast depressive symptoms improvement in bipolar I disorder after Stanford Accelerated Intelligent Neuromodulation Therapy (SAINT): A two-site feasibility and safety open-label trial.",
+      "year": 2024,
+      "journal": "Journal of affective disorders",
+      "doi": "10.1016/j.jad.2024.08.087",
+      "source": "ORCID",
+      "concepts": [
+        "Neuromodulation",
+        "Bipolar disorder",
+        "Open label",
+        "Depression (economics)",
+        "Major depressive disorder",
+        "Psychology",
+        "Randomized controlled trial",
+        "Psychiatry",
+        "Medicine",
+        "Physical medicine and rehabilitation",
+        "Mood",
+        "Neuroscience",
+        "Internal medicine",
+        "Central nervous system",
+        "Economics",
+        "Macroeconomics",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Bipolar Disorder and Treatment"
+      ],
+      "url": "https://doi.org/10.1016/j.jad.2024.08.087"
+    },
+    {
+      "title": "Increased anti-correlation between the left dorsolateral prefrontal cortex and the default mode network following Stanford Neuromodulation Therapy (SNT): analysis of a double-blinded, randomized, sham-controlled trial.",
+      "year": 2024,
+      "journal": "Npj mental health research",
+      "doi": "10.1038/s44184-024-00073-y",
+      "source": "ORCID",
+      "concepts": [
+        "Psychology",
+        "Transcranial magnetic stimulation",
+        "Neuromodulation",
+        "Dorsolateral prefrontal cortex",
+        "Randomized controlled trial",
+        "Default mode network",
+        "Stimulation",
+        "Prefrontal cortex",
+        "Brain stimulation",
+        "Functional magnetic resonance imaging",
+        "Medicine",
+        "Neuroscience",
+        "Internal medicine",
+        "Cognition",
+        "Transcranial Magnetic Stimulation Studies",
+        "Functional Brain Connectivity Studies",
+        "Treatment of Major Depression"
+      ],
+      "url": "https://doi.org/10.1038/s44184-024-00073-y"
+    },
+    {
+      "title": "Should rTMS be considered a first-line treatment for major depressive episodes in adults?",
+      "year": 2024,
+      "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+      "doi": "10.1016/j.clinph.2024.06.004",
+      "source": "ORCID",
+      "concepts": [
+        "Medicine",
+        "Psychology",
+        "Psychiatry",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1016/j.clinph.2024.06.004"
+    },
+    {
+      "title": "Mechanisms of Action of TMS in the Treatment of Depression.",
+      "year": 2024,
+      "journal": "Current topics in behavioral neurosciences",
+      "doi": "10.1007/7854_2024_483",
+      "source": "ORCID",
+      "concepts": [
+        "Neuroscience",
+        "Psychology",
+        "Transcranial magnetic stimulation",
+        "Dorsolateral prefrontal cortex",
+        "Prefrontal cortex",
+        "Orbitofrontal cortex",
+        "Neuroplasticity",
+        "Anterior cingulate cortex",
+        "Brain stimulation",
+        "Periaqueductal gray",
+        "Stimulation",
+        "Cognition",
+        "Central nervous system",
+        "Midbrain",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Deep Brain Stimulation and Movement Disorders"
+      ],
+      "url": "https://doi.org/10.1007/7854_2024_483"
+    },
+    {
+      "title": "Theta burst stimulation for depression: a systematic review and network and pairwise meta-analysis.",
+      "year": 2024,
+      "journal": "Molecular psychiatry",
+      "doi": "10.1038/s41380-024-02630-5",
+      "source": "ORCID",
+      "concepts": [
+        "CTBS",
+        "Dorsolateral prefrontal cortex",
+        "Transcranial magnetic stimulation",
+        "Psychology",
+        "Medicine",
+        "Depression (economics)",
+        "Stimulation",
+        "Neuroscience",
+        "Prefrontal cortex",
+        "Cognition",
+        "Primary motor cortex",
+        "Economics",
+        "Macroeconomics",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1038/s41380-024-02630-5"
+    },
+    {
+      "title": "Transcranial magnetic stimulation as a countermeasure for behavioral and neuropsychological risks of long-duration and deep-space missions.",
+      "year": 2024,
+      "journal": "NPJ microgravity",
+      "doi": "10.1038/s41526-024-00401-8",
+      "source": "ORCID",
+      "concepts": [
+        "Countermeasure",
+        "Duration (music)",
+        "Neuropsychology",
+        "Transcranial magnetic stimulation",
+        "Psychology",
+        "Stimulation",
+        "Deep brain stimulation",
+        "Neuroscience",
+        "Medicine",
+        "Physics",
+        "Engineering",
+        "Internal medicine",
+        "Cognition",
+        "Aerospace engineering",
+        "Parkinson's disease",
+        "Acoustics",
+        "Disease",
+        "Spaceflight effects on biology",
+        "Transcranial Magnetic Stimulation Studies",
+        "Electromagnetic Fields and Biological Effects"
+      ],
+      "url": "https://doi.org/10.1038/s41526-024-00401-8"
+    },
+    {
+      "title": "Chronometric TMS-fMRI of personalized left dorsolateral prefrontal target reveals state-dependency of subgenual anterior cingulate cortex effects.",
+      "year": 2024,
+      "journal": "Molecular psychiatry",
+      "doi": "10.1038/s41380-024-02535-3",
+      "source": "ORCID",
+      "concepts": [
+        "Dorsolateral prefrontal cortex",
+        "Neuroscience",
+        "Anterior cingulate cortex",
+        "Prefrontal cortex",
+        "Psychology",
+        "Functional connectivity",
+        "Dorsolateral",
+        "Cingulate cortex",
+        "Dependency (UML)",
+        "Functional magnetic resonance imaging",
+        "Medicine",
+        "Cognition",
+        "Central nervous system",
+        "Computer science",
+        "Artificial intelligence",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Deep Brain Stimulation and Movement Disorders"
+      ],
+      "url": "https://doi.org/10.1038/s41380-024-02535-3"
+    },
+    {
+      "title": "Pilot study of stanford neuromodulation therapy (SNT) for bipolar depression.",
+      "year": 2024,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.03.002",
+      "source": "ORCID",
+      "concepts": [
+        "Neuromodulation",
+        "Depression (economics)",
+        "Psychology",
+        "Bipolar disorder",
+        "Rapid cycling",
+        "Psychotherapist",
+        "Psychiatry",
+        "Lithium (medication)",
+        "Neuroscience",
+        "Stimulation",
+        "Economics",
+        "Macroeconomics",
+        "Bipolar Disorder and Treatment",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1016/j.brs.2024.03.002"
+    },
+    {
+      "title": "Accelerated Theta Burst Stimulation: Safety, Efficacy, and Future Advancements",
+      "year": 2024,
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2023.12.004",
+      "source": "ORCID",
+      "concepts": [
+        "Protocol (science)",
+        "Medicine",
+        "Stimulation",
+        "Clinical trial",
+        "Depression (economics)",
+        "Duration (music)",
+        "Brain stimulation",
+        "Deep brain stimulation",
+        "Psychology",
+        "Internal medicine",
+        "Alternative medicine",
+        "Disease",
+        "Literature",
+        "Art",
+        "Pathology",
+        "Macroeconomics",
+        "Economics",
+        "Parkinson's disease",
+        "Transcranial Magnetic Stimulation Studies",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1016/j.biopsych.2023.12.004"
+    },
+    {
+      "title": "Magnesium-ibogaine therapy in veterans with traumatic brain injuries.",
+      "year": 2024,
+      "journal": "Nature medicine",
+      "doi": "10.1038/s41591-023-02705-w",
+      "source": "ORCID",
+      "concepts": [
+        "Depression (economics)",
+        "Anxiety",
+        "Traumatic brain injury",
+        "Medicine",
+        "Psychiatry",
+        "Hamilton Anxiety Rating Scale",
+        "Psychology",
+        "Internal medicine",
+        "Macroeconomics",
+        "Economics",
+        "Traumatic Brain Injury Research",
+        "Psychedelics and Drug Studies",
+        "Traumatic Brain Injury and Neurovascular Disturbances"
+      ],
+      "url": "https://doi.org/10.1038/s41591-023-02705-w"
+    },
+    {
+      "title": "Stanford Hypnosis Integrated with Functional Connectivity-targeted Transcranial Stimulation (SHIFT): a preregistered randomized controlled trial",
+      "year": 2024,
+      "journal": "NATURE MENTAL HEALTH",
+      "doi": "10.1038/s44220-023-00184-z",
+      "source": "ORCID",
+      "concepts": [
+        "Hypnosis",
+        "Psychology",
+        "Transcranial magnetic stimulation",
+        "Neuroimaging",
+        "Stimulation",
+        "Dorsolateral prefrontal cortex",
+        "Randomized controlled trial",
+        "Context (archaeology)",
+        "Hypnotic susceptibility",
+        "Functional neuroimaging",
+        "Neuroscience",
+        "Prefrontal cortex",
+        "Cognition",
+        "Clinical psychology",
+        "Medicine",
+        "Internal medicine",
+        "Pathology",
+        "Alternative medicine",
+        "Paleontology",
+        "Biology",
+        "Transcranial Magnetic Stimulation Studies",
+        "Pain Management and Placebo Effect",
+        "Deep Brain Stimulation and Movement Disorders"
+      ],
+      "url": "https://doi.org/10.1038/s44220-023-00184-z"
+    },
+    {
+      "title": "Sustained Efficacy of Stanford Neuromodulation Therapy (SNT) in Open-Label Repeated Treatment.",
+      "year": 2024,
+      "journal": "The American journal of psychiatry",
+      "doi": "10.1176/appi.ajp.20230113",
+      "source": "ORCID",
+      "concepts": [
+        "Login",
+        "Sign (mathematics)",
+        "Library science",
+        "Psychology",
+        "Psychiatry",
+        "Medicine",
+        "Computer science",
+        "Computer security",
+        "Mathematics",
+        "Mathematical analysis",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Vagus Nerve Stimulation Research"
+      ],
+      "url": "https://doi.org/10.1176/appi.ajp.20230113"
+    },
+    {
+      "title": "A preliminary randomized controlled trial of repetitive transcranial magnetic stimulation applied to the left dorsolateral prefrontal cortex in treatment seeking participants with cannabis use disorder.",
+      "year": 2023,
+      "journal": "Drug and alcohol dependence",
+      "doi": "10.1016/j.drugalcdep.2023.111035",
+      "source": "ORCID",
+      "concepts": [
+        "Craving",
+        "Abstinence",
+        "Transcranial magnetic stimulation",
+        "Randomized controlled trial",
+        "Dorsolateral prefrontal cortex",
+        "Cannabis",
+        "Medicine",
+        "Prefrontal cortex",
+        "Psychology",
+        "Psychiatry",
+        "Stimulation",
+        "Internal medicine",
+        "Addiction",
+        "Cognition",
+        "Transcranial Magnetic Stimulation Studies",
+        "Substance Abuse Treatment and Outcomes",
+        "Cannabis and Cannabinoid Research"
+      ],
+      "url": "https://doi.org/10.1016/j.drugalcdep.2023.111035"
+    },
+    {
+      "title": "An Avenue for Optimization of Theta Burst Stimulation Protocols? Comments on the FOUR-D Randomized Noninferiority Clinical Trial.",
+      "year": 2023,
+      "journal": "The American journal of psychiatry",
+      "doi": "10.1176/appi.ajp.20230236",
+      "source": "ORCID",
+      "concepts": [
+        "Login",
+        "Service (business)",
+        "Randomized controlled trial",
+        "Computer science",
+        "Library science",
+        "Medicine",
+        "Business",
+        "Computer security",
+        "Surgery",
+        "Marketing",
+        "Transcranial Magnetic Stimulation Studies",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1176/appi.ajp.20230236"
+    },
+    {
+      "title": "Concurrent TMS/fMRI reveals individual DLPFC dose-response pattern",
+      "year": 2023,
+      "journal": "NeuroImage",
+      "doi": "10.1016/j.neuroimage.2023.120394",
+      "source": "ORCID",
+      "concepts": [
+        "Stimulation",
+        "Transcranial magnetic stimulation",
+        "Psychology",
+        "Neuroscience",
+        "Response inhibition",
+        "Brain stimulation",
+        "Audiology",
+        "Medicine",
+        "Cognition",
+        "Transcranial Magnetic Stimulation Studies",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1016/j.neuroimage.2023.120394"
+    },
+    {
+      "title": "Responsive deep brain stimulation guided by ventral striatal electrophysiology of obsession durably ameliorates compulsion.",
+      "year": 2023,
+      "journal": "Neuron",
+      "doi": "10.1016/j.neuron.2023.09.034",
+      "source": "ORCID",
+      "concepts": [
+        "Ventral striatum",
+        "Neuroscience",
+        "Psychology",
+        "Deep brain stimulation",
+        "Stimulation",
+        "Electrophysiology",
+        "Electroencephalography",
+        "Striatum",
+        "Medicine",
+        "Dopamine",
+        "Internal medicine",
+        "Disease",
+        "Parkinson's disease",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Transcranial Magnetic Stimulation Studies"
+      ],
+      "url": "https://doi.org/10.1016/j.neuron.2023.09.034"
+    },
+    {
+      "title": "Transcranial Magnetic Stimulation-Induced Heart-Brain Coupling: Implications for Site Selection and Frontal Thresholding-Preliminary Findings.",
+      "year": 2023,
+      "journal": "Biological psychiatry global open science",
+      "doi": "10.1016/j.bpsgos.2023.01.003",
+      "source": "ORCID",
+      "concepts": [
+        "Transcranial magnetic stimulation",
+        "Motor cortex",
+        "Medicine",
+        "Stimulation",
+        "Neuroscience",
+        "Psychology",
+        "Transcranial Magnetic Stimulation Studies",
+        "Vagus Nerve Stimulation Research",
+        "Deep Brain Stimulation and Movement Disorders"
+      ],
+      "url": "https://doi.org/10.1016/j.bpsgos.2023.01.003"
+    },
+    {
+      "title": "A Preliminary Investigation Of Repetitive Transcranial Magnetic Stimulation Applied To The Left Dorsolateral Prefrontal Cortex In Treatment Seeking Participants With Cannabis Use Disorder.",
+      "year": 2023,
+      "journal": "medRxiv : the preprint server for health sciences",
+      "doi": "10.1101/2023.07.10.23292461",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Network effects of Stanford Neuromodulation Therapy (SNT) in treatment-resistant major depressive disorder: a randomized, controlled trial",
+      "year": 2023,
+      "journal": "Translational Psychiatry",
+      "doi": "10.1038/s41398-023-02537-9",
+      "source": "ORCID",
+      "concepts": [
+        "Amygdala",
+        "Psychology",
+        "Default mode network",
+        "Randomized controlled trial",
+        "Neuromodulation",
+        "Major depressive disorder",
+        "Stimulation",
+        "Functional connectivity",
+        "Neuroscience",
+        "Internal medicine",
+        "Medicine",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Functional Brain Connectivity Studies"
+      ],
+      "url": "https://doi.org/10.1038/s41398-023-02537-9"
+    },
+    {
+      "title": "No place in France for repetitive transcranial magnetic stimulation in the therapeutic armamentarium of treatment-resistant depression?",
+      "year": 2023,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2023.05.015",
+      "source": "ORCID",
+      "concepts": [
+        "Transcranial magnetic stimulation",
+        "Electroconvulsive therapy",
+        "Treatment-resistant depression",
+        "Depression (economics)",
+        "Antidepressant",
+        "Psychology",
+        "Brain stimulation",
+        "Dorsolateral prefrontal cortex",
+        "Rating scale",
+        "Major depressive disorder",
+        "Psychiatry",
+        "Medicine",
+        "Stimulation",
+        "Prefrontal cortex",
+        "Physical medicine and rehabilitation",
+        "Neuroscience",
+        "Schizophrenia (object-oriented programming)",
+        "Mood",
+        "Developmental psychology",
+        "Anxiety",
+        "Cognition",
+        "Macroeconomics",
+        "Economics",
+        "Transcranial Magnetic Stimulation Studies",
+        "Electroconvulsive Therapy Studies",
+        "Treatment of Major Depression"
+      ],
+      "url": "https://doi.org/10.1016/j.brs.2023.05.015"
+    },
+    {
+      "title": "Targeted neurostimulation reverses a spatiotemporal biomarker of treatment-resistant depression",
+      "year": 2023,
+      "journal": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.2218958120",
+      "source": "ORCID",
+      "concepts": [
+        "Neurostimulation",
+        "Major depressive disorder",
+        "Dorsolateral prefrontal cortex",
+        "Neuroscience",
+        "Anterior cingulate cortex",
+        "Neuromodulation",
+        "Functional magnetic resonance imaging",
+        "Prefrontal cortex",
+        "Psychology",
+        "Biomarker",
+        "Resting state fMRI",
+        "Depression (economics)",
+        "Functional connectivity",
+        "Brain activity and meditation",
+        "Medicine",
+        "Cognition",
+        "Biology",
+        "Electroencephalography",
+        "Stimulation",
+        "Economics",
+        "Biochemistry",
+        "Macroeconomics",
+        "Functional Brain Connectivity Studies",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression"
+      ],
+      "url": "https://doi.org/10.1073/pnas.2218958120"
+    },
+    {
+      "title": "Accelerated Repetitive Transcranial Magnetic Stimulation to Treat Major Depression: The Past, Present, and Future.",
+      "year": 2023,
+      "journal": "Harvard review of psychiatry",
+      "doi": "10.1097/hrp.0000000000000364",
+      "source": "ORCID",
+      "concepts": [
+        "Transcranial magnetic stimulation",
+        "Antidepressant",
+        "Brain stimulation",
+        "Stimulation",
+        "Medicine",
+        "Depression (economics)",
+        "Psychology",
+        "Neuroscience",
+        "Physical medicine and rehabilitation",
+        "Hippocampus",
+        "Economics",
+        "Macroeconomics",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1097/hrp.0000000000000364"
+    },
+    {
+      "title": "Repetitive Transcranial Magnetic Stimulation for Treatment-Resistant Depression: Mismatch of Evidence and Insurance Coverage Policies in the United States.",
+      "year": 2023,
+      "journal": "The Journal of clinical psychiatry",
+      "doi": "10.4088/jcp.22com14575",
+      "source": "ORCID",
+      "concepts": [
+        "Transcranial magnetic stimulation",
+        "Depression (economics)",
+        "Treatment-resistant depression",
+        "Stimulation",
+        "Deep transcranial magnetic stimulation",
+        "Neuroscience",
+        "Psychology",
+        "Medicine",
+        "Physical medicine and rehabilitation",
+        "Psychiatry",
+        "Psychotherapist",
+        "Major depressive disorder",
+        "Cognition",
+        "Macroeconomics",
+        "Economics",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.4088/jcp.22com14575"
+    },
+    {
+      "title": "Real-Time Semi-Automated and Automated Voxel Placement using fMRI Targets for Repeated Acquisition Magnetic Resonance Spectroscopy.",
+      "year": 2023,
+      "journal": "Journal of neuroscience methods",
+      "doi": "10.1016/j.jneumeth.2023.109853",
+      "source": "ORCID",
+      "concepts": [
+        "Voxel",
+        "Computer science",
+        "Segmentation",
+        "Artificial intelligence",
+        "Reproducibility",
+        "Pattern recognition (psychology)",
+        "Magnetic resonance imaging",
+        "Medicine",
+        "Mathematics",
+        "Radiology",
+        "Statistics",
+        "Advanced MRI Techniques and Applications",
+        "Advanced Neuroimaging Techniques and Applications",
+        "Metabolomics and Mass Spectrometry Studies"
+      ],
+      "url": "https://doi.org/10.1016/j.jneumeth.2023.109853"
+    },
+    {
+      "title": "Time for Brain Medicine.",
+      "year": 2023,
+      "journal": "The Journal of neuropsychiatry and clinical neurosciences",
+      "doi": "10.1176/appi.neuropsych.21120312",
+      "source": "ORCID",
+      "concepts": [
+        "Subspecialty",
+        "Competence (human resources)",
+        "Neurology",
+        "Neuropsychiatry",
+        "Residency training",
+        "Medical education",
+        "Medicine",
+        "Psychology",
+        "Psychiatry",
+        "Continuing education",
+        "Social psychology",
+        "Innovations in Medical Education",
+        "Health and Medical Research Impacts",
+        "Undergraduate Neuroscience Education and Research"
+      ],
+      "url": "https://doi.org/10.1176/appi.neuropsych.21120312"
+    },
+    {
+      "title": "Taking modern psychiatry into the metaverse: Integrating augmented, virtual, and mixed reality technologies into psychiatric care.",
+      "year": 2023,
+      "journal": "Frontiers in digital health",
+      "doi": "10.3389/fdgth.2023.1146806",
+      "source": "ORCID",
+      "concepts": [
+        "Metaverse",
+        "Augmented reality",
+        "Neurostimulation",
+        "Computer science",
+        "Virtual reality",
+        "Modalities",
+        "Human–computer interaction",
+        "Neuromodulation",
+        "Data science",
+        "Psychology",
+        "Neuroscience",
+        "Sociology",
+        "Stimulation",
+        "Social science",
+        "Virtual Reality Applications and Impacts",
+        "Augmented Reality Applications",
+        "Digital Mental Health Interventions"
+      ],
+      "url": "https://doi.org/10.3389/fdgth.2023.1146806"
+    },
+    {
+      "title": "Treatment-resistant depression: definition, prevalence, detection, management, and investigational interventions.",
+      "year": 2023,
+      "journal": "World psychiatry : official journal of the World Psychiatric Association (WPA)",
+      "doi": "10.1002/wps.21120",
+      "source": "ORCID",
+      "concepts": [
+        "Medicine",
+        "Quetiapine",
+        "Aripiprazole",
+        "Psychological intervention",
+        "Treatment-resistant depression",
+        "Olanzapine",
+        "Psychiatry",
+        "Clinical trial",
+        "Depression (economics)",
+        "Intensive care medicine",
+        "Antidepressant",
+        "Schizophrenia (object-oriented programming)",
+        "Internal medicine",
+        "Macroeconomics",
+        "Economics",
+        "Anxiety",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies",
+        "Transcranial Magnetic Stimulation Studies"
+      ],
+      "url": "https://doi.org/10.1002/wps.21120"
+    },
+    {
+      "title": "Appetitive Mapping of the Human Nucleus Accumbens.",
+      "year": 2022,
+      "journal": "Biological psychiatry",
+      "doi": "10.1016/j.biopsych.2022.09.016",
+      "source": "ORCID",
+      "concepts": [
+        "Nucleus accumbens",
+        "Neuroscience",
+        "Psychology",
+        "Nucleus",
+        "Dopamine",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Neurotransmitter Receptor Influence on Behavior"
+      ],
+      "url": "https://doi.org/10.1016/j.biopsych.2022.09.016"
+    },
+    {
+      "title": "Aberrant impulse control circuitry in obesity.",
+      "year": 2022,
+      "journal": "Molecular psychiatry",
+      "doi": "10.1038/s41380-022-01640-5",
+      "source": "ORCID",
+      "concepts": [
+        "Ventromedial prefrontal cortex",
+        "Nucleus accumbens",
+        "Disinhibition",
+        "Psychology",
+        "Neuroscience",
+        "Body mass index",
+        "Impulse (physics)",
+        "Binge eating",
+        "Obesity",
+        "Eating disorders",
+        "Medicine",
+        "Psychiatry",
+        "Internal medicine",
+        "Prefrontal cortex",
+        "Central nervous system",
+        "Physics",
+        "Cognition",
+        "Quantum mechanics",
+        "Eating Disorders and Behaviors",
+        "Regulation of Appetite and Obesity",
+        "Neural and Behavioral Psychology Studies"
+      ],
+      "url": "https://doi.org/10.1038/s41380-022-01640-5"
+    },
+    {
+      "title": "Stanford Neuromodulation Therapy (SNT): A Double-Blind Randomized Controlled Trial.",
+      "year": 2021,
+      "journal": "The American journal of psychiatry",
+      "doi": "10.1176/appi.ajp.2021.20101429",
+      "source": "ORCID",
+      "concepts": [
+        "Treatment-resistant depression",
+        "Depression (economics)",
+        "Psychology",
+        "Randomized controlled trial",
+        "Neuromodulation",
+        "Clinical Global Impression",
+        "Medicine",
+        "Major depressive disorder",
+        "Internal medicine",
+        "Psychiatry",
+        "Stimulation",
+        "Placebo",
+        "Neuroscience",
+        "Cognition",
+        "Economics",
+        "Pathology",
+        "Macroeconomics",
+        "Alternative medicine",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1176/appi.ajp.2021.20101429"
+    },
+    {
+      "title": "Hypnotic predictors of agency: Responsiveness to specific suggestions in hypnosis is associated with involuntariness in fibromyalgia.",
+      "year": 2021,
+      "journal": "Consciousness and cognition",
+      "doi": "10.1016/j.concog.2021.103221",
+      "source": "ORCID",
+      "concepts": [
+        "Hypnosis",
+        "Fibromyalgia",
+        "Psychology",
+        "Sense of agency",
+        "Agency (philosophy)",
+        "Hypnotic susceptibility",
+        "Hypnotic",
+        "Rating scale",
+        "Psychotherapist",
+        "Clinical psychology",
+        "Developmental psychology",
+        "Social psychology",
+        "Psychiatry",
+        "Alternative medicine",
+        "Medicine",
+        "Epistemology",
+        "Philosophy",
+        "Pathology",
+        "Pain Management and Placebo Effect",
+        "Free Will and Agency",
+        "Fibromyalgia and Chronic Fatigue Syndrome Research"
+      ],
+      "url": "https://doi.org/10.1016/j.concog.2021.103221"
+    },
+    {
+      "title": "Unraveling the opioid actions of S-ketamine and R-ketamine: comment on Bonaventura et al.",
+      "year": 2021,
+      "journal": "Molecular psychiatry",
+      "doi": "10.1038/s41380-021-01167-1",
+      "source": "ORCID",
+      "concepts": [
+        "Ketamine",
+        "Opioid",
+        "Psychology",
+        "Phencyclidine",
+        "Medicine",
+        "Neuroscience",
+        "NMDA receptor",
+        "Internal medicine",
+        "Receptor",
+        "Treatment of Major Depression",
+        "Neurotransmitter Receptor Influence on Behavior",
+        "Neuroscience and Neuropharmacology Research"
+      ],
+      "url": "https://doi.org/10.1038/s41380-021-01167-1"
+    },
+    {
+      "title": "The Future of Training and Practice in Neuromodulation: An Interventional Psychiatry Perspective.",
+      "year": 2021,
+      "journal": "Frontiers in psychiatry",
+      "doi": "10.3389/fpsyt.2021.734487",
+      "source": "ORCID",
+      "concepts": [
+        "Neuromodulation",
+        "Perspective (graphical)",
+        "Neuroimaging",
+        "Medicine",
+        "Psychiatry",
+        "Psychology",
+        "Psychotherapist",
+        "Neuroscience",
+        "Computer science",
+        "Artificial intelligence",
+        "Stimulation",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Electroconvulsive Therapy Studies",
+        "Pain Management and Treatment"
+      ],
+      "url": "https://doi.org/10.3389/fpsyt.2021.734487"
+    },
+    {
+      "title": "Accelerated Neuromodulation Therapy for Obsessive-Compulsive Disorder.",
+      "year": 2021,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2021.02.013",
+      "source": "ORCID",
+      "concepts": [
+        "Neuromodulation",
+        "Obsessive compulsive",
+        "Psychotherapist",
+        "Psychology",
+        "Medicine",
+        "Psychiatry",
+        "Neuroscience",
+        "Central nervous system",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Transcranial Magnetic Stimulation Studies",
+        "Deep Brain Stimulation and Movement Disorders"
+      ],
+      "url": "https://doi.org/10.1016/j.brs.2021.02.013"
+    },
+    {
+      "title": "Lather, Rinse, Repeat? Breaking Repetitive Behaviors With Repetitive Stimulation.",
+      "year": 2021,
+      "journal": "The American journal of psychiatry",
+      "doi": "10.1176/appi.ajp.2020.21030265",
+      "source": "ORCID",
+      "concepts": [
+        "Deep brain stimulation",
+        "Psychology",
+        "Compulsive behavior",
+        "Obsessive compulsive",
+        "Neuromodulation",
+        "Perseveration",
+        "Stimulation",
+        "Psychiatry",
+        "Psychotherapist",
+        "Neuroscience",
+        "Clinical psychology",
+        "Medicine",
+        "Cognition",
+        "Disease",
+        "Internal medicine",
+        "Parkinson's disease",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Behavioral and Psychological Studies",
+        "Transcranial Magnetic Stimulation Studies"
+      ],
+      "url": "https://doi.org/10.1176/appi.ajp.2020.21030265"
+    },
+    {
+      "title": "Adjunctive repetitive transcranial magnetic stimulation delivers superior quality of life for focal epilepsy compared to anti-epileptic drugs: A meta-analytic utility prediction study",
+      "year": 2020,
+      "journal": "Brain Stimulation",
+      "doi": "10.1016/j.brs.2019.12.006",
+      "source": "ORCID",
+      "concepts": [
+        "Transcranial magnetic stimulation",
+        "Adjunctive treatment",
+        "Epilepsy",
+        "Meta-analysis",
+        "Medicine",
+        "Quality of life (healthcare)",
+        "Stimulation",
+        "Physical medicine and rehabilitation",
+        "Neuroscience",
+        "Psychology",
+        "Internal medicine",
+        "Psychiatry",
+        "Nursing",
+        "Transcranial Magnetic Stimulation Studies",
+        "Epilepsy research and treatment",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1016/j.brs.2019.12.006"
+    },
+    {
+      "title": "Brain-Responsive Neurostimulation for Loss of Control Eating: Early Feasibility Study.",
+      "year": 2020,
+      "journal": "Neurosurgery",
+      "doi": "10.1093/neuros/nyaa300",
+      "source": "ORCID",
+      "concepts": [
+        "Neurostimulation",
+        "Binge eating",
+        "Medicine",
+        "Deep brain stimulation",
+        "Nucleus accumbens",
+        "Eating disorders",
+        "Psychology",
+        "Physical medicine and rehabilitation",
+        "Psychiatry",
+        "Internal medicine",
+        "Parkinson's disease",
+        "Stimulation",
+        "Disease",
+        "Receptor",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Eating Disorders and Behaviors",
+        "Vagus Nerve Stimulation Research"
+      ],
+      "url": "https://doi.org/10.1093/neuros/nyaa300"
+    },
+    {
+      "title": "Deep Brain Stimulation Results in Greater Symptomatic Improvement in Tourette Syndrome than Conservative Measures: A Meta-Analysis.",
+      "year": 2020,
+      "journal": "Stereotactic and functional neurosurgery",
+      "doi": "10.1159/000507059",
+      "source": "ORCID",
+      "concepts": [
+        "Tourette syndrome",
+        "Deep brain stimulation",
+        "Pharmacotherapy",
+        "Refractory (planetary science)",
+        "Adverse effect",
+        "Medicine",
+        "Tics",
+        "Aripiprazole",
+        "Meta-analysis",
+        "Psychology",
+        "Internal medicine",
+        "Psychiatry",
+        "Schizophrenia (object-oriented programming)",
+        "Disease",
+        "Physics",
+        "Parkinson's disease",
+        "Astrobiology",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Transcranial Magnetic Stimulation Studies"
+      ],
+      "url": "https://doi.org/10.1159/000507059"
+    },
+    {
+      "title": "Evidence for the role of the dorsal ventral lateral posterior thalamic nucleus connectivity in deep brain stimulation for Gilles de la Tourette syndrome.",
+      "year": 2020,
+      "journal": "Journal of psychiatric research",
+      "doi": "10.1016/j.jpsychires.2020.09.024",
+      "source": "ORCID",
+      "concepts": [
+        "Deep brain stimulation",
+        "Neuroscience",
+        "Thalamus",
+        "Tourette syndrome",
+        "Brainstem",
+        "Connectome",
+        "Subthalamic nucleus",
+        "Tractography",
+        "Psychology",
+        "Superior frontal gyrus",
+        "Diffusion MRI",
+        "Gyrus",
+        "Stimulation",
+        "Dorsum",
+        "Anatomy",
+        "Medicine",
+        "Functional connectivity",
+        "Magnetic resonance imaging",
+        "Functional magnetic resonance imaging",
+        "Parkinson's disease",
+        "Pathology",
+        "Radiology",
+        "Psychiatry",
+        "Disease",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Advanced Neuroimaging Techniques and Applications"
+      ],
+      "url": "https://doi.org/10.1016/j.jpsychires.2020.09.024"
+    },
+    {
+      "title": "Stanford accelerated intelligent neuromodulation therapy for treatment-resistant depression",
+      "year": 2020,
+      "journal": "American Journal of Psychiatry",
+      "doi": "10.1176/appi.ajp.2019.19070720",
+      "source": "ORCID",
+      "concepts": [
+        "Tolerability",
+        "Medicine",
+        "Treatment-resistant depression",
+        "Neuropsychology",
+        "Deep brain stimulation",
+        "Neuromodulation",
+        "Depression (economics)",
+        "Dorsolateral prefrontal cortex",
+        "Brain stimulation",
+        "Transcranial direct-current stimulation",
+        "Major depressive disorder",
+        "Physical medicine and rehabilitation",
+        "Psychology",
+        "Stimulation",
+        "Prefrontal cortex",
+        "Internal medicine",
+        "Psychiatry",
+        "Adverse effect",
+        "Cognition",
+        "Parkinson's disease",
+        "Disease",
+        "Macroeconomics",
+        "Economics",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1176/appi.ajp.2019.19070720"
+    },
+    {
+      "title": "Synchronized cervical VNS with accelerated theta burst TMS for treatment resistant depression",
+      "year": 2020,
+      "journal": "Brain Stimulation",
+      "doi": "10.1016/j.brs.2020.08.002",
+      "source": "ORCID",
+      "concepts": [
+        "Depression (economics)",
+        "Psychology",
+        "Economics",
+        "Keynesian economics",
+        "Vagus Nerve Stimulation Research",
+        "Transcranial Magnetic Stimulation Studies",
+        "Deep Brain Stimulation and Movement Disorders"
+      ],
+      "url": "https://doi.org/10.1016/j.brs.2020.08.002"
+    },
+    {
+      "title": "Transcranial Magnetic Stimulation Parameter Space: Wide Open for Exploration",
+      "year": 2020,
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2019.11.012",
+      "source": "ORCID",
+      "concepts": [
+        "Transcranial magnetic stimulation",
+        "Stimulation",
+        "Antidepressant",
+        "Prefrontal cortex",
+        "Magnetic resonance imaging",
+        "Dorsolateral prefrontal cortex",
+        "Electromagnetic coil",
+        "Neuroscience",
+        "Psychology",
+        "Depression (economics)",
+        "Medicine",
+        "Anesthesia",
+        "Physics",
+        "Radiology",
+        "Hippocampus",
+        "Macroeconomics",
+        "Cognition",
+        "Quantum mechanics",
+        "Economics",
+        "Transcranial Magnetic Stimulation Studies",
+        "Electroconvulsive Therapy Studies",
+        "Treatment of Major Depression"
+      ],
+      "url": "https://doi.org/10.1016/j.biopsych.2019.11.012"
+    },
+    {
+      "title": "Attenuation of Anti-Suicidal Effects of Ketamine by Opioid Receptor Antagonism",
+      "year": 2019,
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2019.03.284",
+      "source": "ORCID",
+      "concepts": [
+        "Naltrexone",
+        "Ketamine",
+        "Antagonism",
+        "Medicine",
+        "Opioid",
+        "Pharmacology",
+        "Mechanism of action",
+        "Opioid receptor",
+        "Anesthesia",
+        "Receptor",
+        "Internal medicine",
+        "Chemistry",
+        "In vitro",
+        "Biochemistry",
+        "Treatment of Major Depression",
+        "Suicide and Self-Harm Studies",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1016/j.biopsych.2019.03.284"
+    },
+    {
+      "title": "Stanford Accelerated Intelligent Neuromodulation Therapy for Suicidal Ideation (SAINT-SI)",
+      "year": 2019,
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2019.03.081",
+      "source": "ORCID",
+      "concepts": [
+        "Suicidal ideation",
+        "Neuromodulation",
+        "Medicine",
+        "Psychiatry",
+        "Ideation",
+        "Psychology",
+        "Emergency medicine",
+        "Suicide prevention",
+        "Poison control",
+        "Internal medicine",
+        "Cognitive science",
+        "Stimulation",
+        "Transcranial Magnetic Stimulation Studies",
+        "Electroconvulsive Therapy Studies",
+        "Deep Brain Stimulation and Movement Disorders"
+      ],
+      "url": "https://doi.org/10.1016/j.biopsych.2019.03.081"
+    },
+    {
+      "title": "The Effects of Cortisol Administration on Emotion, Stress Reactivity, and Brain Activity in Depression",
+      "year": 2019,
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2019.03.677",
+      "source": "ORCID",
+      "concepts": [
+        "Feeling",
+        "Depression (economics)",
+        "Stressor",
+        "Psychology",
+        "Reactivity (psychology)",
+        "Clinical psychology",
+        "Hydrocortisone",
+        "Internal medicine",
+        "Medicine",
+        "Social psychology",
+        "Economics",
+        "Pathology",
+        "Alternative medicine",
+        "Macroeconomics",
+        "Stress Responses and Cortisol",
+        "Anxiety, Depression, Psychometrics, Treatment, Cognitive Processes",
+        "Neurotransmitter Receptor Influence on Behavior"
+      ],
+      "url": "https://doi.org/10.1016/j.biopsych.2019.03.677"
+    },
+    {
+      "title": "Rigorous Translational Models Are Key to Studying Ketamine's Antidepressant Mechanism: Response to Wang and Kaplin.",
+      "year": 2019,
+      "journal": "The American journal of psychiatry",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Rigorous Trial Design Is Essential to Understand the Role of Opioid Receptors in Ketamine's Antidepressant Effect.",
+      "year": 2019,
+      "journal": "JAMA psychiatry",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Robust clinical benefit of multi-target deep brain stimulation for treatment of Gilles de la Tourette syndrome and its comorbidities.",
+      "year": 2019,
+      "journal": "Brain stimulation",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Interpreting Ketamine's Opioid Receptor Dependent Effect: Response to Sanacora.",
+      "year": 2019,
+      "journal": "The American journal of psychiatry",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Target Population, Dose, and Timing Considerations for Understanding Naltrexone's Subjective Effect: Response to Amiaz.",
+      "year": 2019,
+      "journal": "The American journal of psychiatry",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Attenuation of antidepressant and antisuicidal effects of ketamine by opioid receptor antagonism",
+      "year": 2019,
+      "journal": "Molecular Psychiatry",
+      "doi": "10.1038/s41380-019-0503-4",
+      "source": "ORCID",
+      "concepts": [
+        "Naltrexone",
+        "Ketamine",
+        "Placebo",
+        "Antidepressant",
+        "Opioid",
+        "Psychology",
+        "Crossover study",
+        "Ketamine hydrochloride",
+        "Pharmacology",
+        "Anesthesia",
+        "Medicine",
+        "Psychiatry",
+        "Internal medicine",
+        "Receptor",
+        "Anxiety",
+        "Alternative medicine",
+        "Pathology",
+        "Treatment of Major Depression",
+        "Suicide and Self-Harm Studies",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1038/s41380-019-0503-4"
+    },
+    {
+      "title": "Case studies in neuroscience: The electrophysiology of a human obsession in nucleus accumbens",
+      "year": 2019,
+      "journal": "Journal of Neurophysiology",
+      "doi": "10.1152/jn.00096.2019",
+      "source": "ORCID",
+      "concepts": [
+        "Nucleus accumbens",
+        "Neuroscience",
+        "Deep brain stimulation",
+        "Psychology",
+        "Electrophysiology",
+        "Stereoelectroencephalography",
+        "Medicine",
+        "Electroencephalography",
+        "Dopamine",
+        "Epilepsy surgery",
+        "Pathology",
+        "Parkinson's disease",
+        "Disease",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Neural dynamics and brain function"
+      ],
+      "url": "https://doi.org/10.1152/jn.00096.2019"
+    },
+    {
+      "title": "Comparative effectiveness of neuroablation and deep brain stimulation for treatment-resistant obsessive-compulsive disorder: A meta-analytic study",
+      "year": 2019,
+      "journal": "Journal of Neurology, Neurosurgery and Psychiatry",
+      "doi": "10.1136/jnnp-2018-319318",
+      "source": "ORCID",
+      "concepts": [
+        "Deep brain stimulation",
+        "Medicine",
+        "Adverse effect",
+        "Observational study",
+        "Meta-analysis",
+        "Internal medicine",
+        "Oncology",
+        "Parkinson's disease",
+        "Disease",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1136/jnnp-2018-319318"
+    },
+    {
+      "title": "Comparative effectiveness of neuroablation and deep brain stimulation for treatment-resistant obsessive-compulsive disorder: a meta-analytic study.",
+      "year": 2019,
+      "journal": "Journal of neurology, neurosurgery, and psychiatry",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Interpreting ketamine's opioid receptor dependent effect: Response to Sanacora",
+      "year": 2019,
+      "journal": "American Journal of Psychiatry",
+      "doi": "10.1176/appi.ajp.2018.18091061r",
+      "source": "ORCID",
+      "concepts": [
+        "Ketamine",
+        "Naltrexone",
+        "Opioid",
+        "Placebo",
+        "Endogenous opioid",
+        "Opioid receptor",
+        "Antidepressant",
+        "Pharmacology",
+        "Antagonist",
+        "Medicine",
+        "Psychoanalysis",
+        "Psychology",
+        "Receptor",
+        "Psychiatry",
+        "Internal medicine",
+        "Alternative medicine",
+        "Pathology",
+        "Anxiety",
+        "Neurotransmitter Receptor Influence on Behavior",
+        "Treatment of Major Depression",
+        "Anesthesia and Sedative Agents"
+      ],
+      "url": "https://doi.org/10.1176/appi.ajp.2018.18091061r"
+    },
+    {
+      "title": "Multimodal characterization of the human nucleus accumbens",
+      "year": 2019,
+      "journal": "NeuroImage",
+      "doi": "10.1016/j.neuroimage.2019.05.019",
+      "source": "ORCID",
+      "concepts": [
+        "Neuroscience",
+        "Nucleus accumbens",
+        "Diffusion MRI",
+        "Human brain",
+        "Tractography",
+        "Deep brain stimulation",
+        "Stimulation",
+        "Psychology",
+        "Biology",
+        "Medicine",
+        "Pathology",
+        "Magnetic resonance imaging",
+        "Central nervous system",
+        "Parkinson's disease",
+        "Radiology",
+        "Disease",
+        "Advanced Neuroimaging Techniques and Applications",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Functional Brain Connectivity Studies"
+      ],
+      "url": "https://doi.org/10.1016/j.neuroimage.2019.05.019"
+    },
+    {
+      "title": "Multimodal characterization of the human nucleus accumbens.",
+      "year": 2019,
+      "journal": "NeuroImage",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Rigorous translational models are key to studying ketamine’s antidepressant mechanism: Response to Wang and Kaplin",
+      "year": 2019,
+      "journal": "American Journal of Psychiatry",
+      "doi": "10.1176/appi.ajp.2019.19010044r",
+      "source": "ORCID",
+      "concepts": [
+        "Ketamine",
+        "NMDA receptor",
+        "Neuroscience",
+        "Opioid",
+        "Crosstalk",
+        "Cognitive science",
+        "DAMGO",
+        "Antidepressant",
+        "Receptor",
+        "Chemistry",
+        "Psychology",
+        "Opioid receptor",
+        "Physics",
+        "Biochemistry",
+        "Hippocampus",
+        "Optics",
+        "Treatment of Major Depression",
+        "Tryptophan and brain disorders",
+        "Neurotransmitter Receptor Influence on Behavior"
+      ],
+      "url": "https://doi.org/10.1176/appi.ajp.2019.19010044r"
+    },
+    {
+      "title": "Rigorous trial design is essential to understand the role of opioid receptors in ketamine's antidepressant effect",
+      "year": 2019,
+      "journal": "JAMA Psychiatry",
+      "doi": "10.1001/jamapsychiatry.2019.0766",
+      "source": "ORCID",
+      "concepts": [
+        "Medicine",
+        "Neurology",
+        "Family medicine",
+        "Psychiatry",
+        "Otorhinolaryngology",
+        "Treatment of Major Depression",
+        "Transcranial Magnetic Stimulation Studies",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1001/jamapsychiatry.2019.0766"
+    },
+    {
+      "title": "Robust clinical benefit of multi-target deep brain stimulation for treatment of Gilles de la Tourette syndrome and its comorbidities",
+      "year": 2019,
+      "journal": "Brain Stimulation",
+      "doi": "10.1016/j.brs.2019.02.026",
+      "source": "ORCID",
+      "concepts": [
+        "Tourette syndrome",
+        "Deep brain stimulation",
+        "Ventral striatum",
+        "Neuroscience",
+        "Psychology",
+        "Medicine",
+        "Psychiatry",
+        "Parkinson's disease",
+        "Striatum",
+        "Internal medicine",
+        "Disease",
+        "Dopamine",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Transcranial Magnetic Stimulation Studies"
+      ],
+      "url": "https://doi.org/10.1016/j.brs.2019.02.026"
+    },
+    {
+      "title": "Target population, dose, and timing considerations for understanding naltrexone's subjective effect: Response to Amiaz",
+      "year": 2019,
+      "journal": "American Journal of Psychiatry",
+      "doi": "10.1176/appi.ajp.2018.18111231r",
+      "source": "ORCID",
+      "concepts": [
+        "Naltrexone",
+        "Population",
+        "Mood",
+        "Psychiatry",
+        "Psychoanalysis",
+        "Psychology",
+        "Medicine",
+        "Psychotherapist",
+        "Internal medicine",
+        "Opioid",
+        "Environmental health",
+        "Receptor",
+        "Treatment of Major Depression",
+        "Neurotransmitter Receptor Influence on Behavior",
+        "Substance Abuse Treatment and Outcomes"
+      ],
+      "url": "https://doi.org/10.1176/appi.ajp.2018.18111231r"
+    },
+    {
+      "title": "Attenuation of Antidepressant Effects of Ketamine by Opioid Receptor Antagonism.",
+      "year": 2018,
+      "journal": "The American journal of psychiatry",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "KETAMINE'S ANTIDEPRESSANT EFFECT IS BLOCKED BY A MU-OPIOID RECEPTOR ANTAGONIST IN HUMANS AND MICE",
+      "year": 2018,
+      "journal": "",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "High-dose spaced theta-burst TMS as a rapid-acting antidepressant in highly refractory depression",
+      "year": 2018,
+      "journal": "Brain",
+      "doi": "10.1093/brain/awx379",
+      "source": "ORCID",
+      "concepts": [
+        "Antidepressant",
+        "Depression (economics)",
+        "Refractory (planetary science)",
+        "Medicine",
+        "Psychology",
+        "Neuroscience",
+        "Anesthesia",
+        "Hippocampus",
+        "Materials science",
+        "Economics",
+        "Composite material",
+        "Macroeconomics",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ],
+      "url": "https://doi.org/10.1093/brain/awx379"
+    },
+    {
+      "title": "Influence of gender on inpatient treatment for bipolar disorder: An analysis of 60,607 hospitalisations",
+      "year": 2018,
+      "journal": "JOURNAL OF AFFECTIVE DISORDERS",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Transcranial Magnetic Stimulation for Disorders Other Than Depression",
+      "year": 2018,
+      "journal": "TRANSCRANIAL MAGNETIC STIMULATION: CLINICAL APPLICATIONS FOR PSYCHIATRIC PRACTICE",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Closing the loop on impulsivity via nucleus accumbens delta-band activity in mice and man.",
+      "year": 2018,
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "doi": "10.1073/pnas.1712214114",
+      "source": "ORCID",
+      "concepts": [
+        "Nucleus accumbens",
+        "Closing (real estate)",
+        "Impulsivity",
+        "Loop (graph theory)",
+        "Neuroscience",
+        "Psychology",
+        "Physics",
+        "Nucleus",
+        "Psychiatry",
+        "Political science",
+        "Mathematics",
+        "Dopamine",
+        "Law",
+        "Combinatorics",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Neurotransmitter Receptor Influence on Behavior",
+        "Neural dynamics and brain function"
+      ],
+      "url": "https://doi.org/10.1073/pnas.1712214114"
+    },
+    {
+      "title": "Attenuation of antidepressant effects of ketamine by opioid receptor antagonism",
+      "year": 2018,
+      "journal": "American Journal of Psychiatry",
+      "doi": "10.1176/appi.ajp.2018.18020138",
+      "source": "ORCID",
+      "concepts": [
+        "Antagonism",
+        "Antidepressant",
+        "Ketamine",
+        "Pharmacology",
+        "Opioid",
+        "Medicine",
+        "Psychology",
+        "Receptor",
+        "Neuroscience",
+        "Internal medicine",
+        "Hippocampus",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies",
+        "Tryptophan and brain disorders"
+      ],
+      "url": "https://doi.org/10.1176/appi.ajp.2018.18020138"
+    },
+    {
+      "title": "High-dose spaced theta-burst TMS as a rapid-acting antidepressant in highly refractory depression.",
+      "year": 2018,
+      "journal": "Brain : a journal of neurology",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Influence of gender on inpatient treatment for bipolar disorder: An analysis of 60,607 hospitalisations",
+      "year": 2018,
+      "journal": "Journal of Affective Disorders",
+      "doi": "10.1016/j.jad.2017.08.007",
+      "source": "ORCID",
+      "concepts": [
+        "Bipolar disorder",
+        "Medicine",
+        "Mood",
+        "Bipolar I disorder",
+        "Demography",
+        "Pediatrics",
+        "Psychiatry",
+        "Mania",
+        "Sociology",
+        "Bipolar Disorder and Treatment",
+        "Personality Disorders and Psychopathology",
+        "Maternal Mental Health During Pregnancy and Postpartum"
+      ],
+      "url": "https://doi.org/10.1016/j.jad.2017.08.007"
+    },
+    {
+      "title": "Optimization of epidural cortical stimulation for treatment-resistant depression",
+      "year": 2018,
+      "journal": "Brain Stimulation",
+      "doi": "10.1016/j.brs.2017.09.001",
+      "source": "ORCID",
+      "concepts": [
+        "Electroconvulsive therapy",
+        "Scopus",
+        "Treatment-resistant depression",
+        "Prefrontal cortex",
+        "Depression (economics)",
+        "Medicine",
+        "Antidepressant",
+        "Web of science",
+        "Psychiatry",
+        "Major depressive disorder",
+        "Psychology",
+        "Psychotherapist",
+        "Internal medicine",
+        "MEDLINE",
+        "Meta-analysis",
+        "Schizophrenia (object-oriented programming)",
+        "Political science",
+        "Anxiety",
+        "Law",
+        "Macroeconomics",
+        "Economics",
+        "Cognition",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression"
+      ],
+      "url": "https://doi.org/10.1016/j.brs.2017.09.001"
+    },
+    {
+      "title": "Modulation of the Neural Circuitry Underlying Trait Hypnotizability With Spaced Continuous Theta-Burst Stimulation",
+      "year": 2017,
+      "journal": "",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "It takes time to tune",
+      "year": 2017,
+      "journal": "ANNALS OF TRANSLATIONAL MEDICINE",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "It takes time to tune",
+      "year": 2017,
+      "journal": "Annals of Translational Medicine",
+      "doi": "10.21037/atm.2017.03.49",
+      "source": "ORCID",
+      "concepts": [
+        "Deep brain stimulation",
+        "Neuromodulation",
+        "Medicine",
+        "Treatment-resistant depression",
+        "Electroconvulsive therapy",
+        "Antidepressant",
+        "Depression (economics)",
+        "Clinical trial",
+        "Monoamine oxidase inhibitor",
+        "Tricyclic",
+        "Psychiatry",
+        "Intensive care medicine",
+        "Internal medicine",
+        "Pharmacology",
+        "Stimulation",
+        "Monoamine oxidase",
+        "Schizophrenia (object-oriented programming)",
+        "Anxiety",
+        "Macroeconomics",
+        "Chemistry",
+        "Enzyme",
+        "Disease",
+        "Economics",
+        "Biochemistry",
+        "Parkinson's disease",
+        "Health and Medical Research Impacts",
+        "Music Therapy and Health",
+        "General Medicine and Therapeutics"
+      ],
+      "url": "https://doi.org/10.21037/atm.2017.03.49"
+    },
+    {
+      "title": "Neuroversion: using electroconvulsive therapy as a bridge to deep brain stimulation implantation",
+      "year": 2017,
+      "journal": "Neurocase",
+      "doi": "10.1080/13554794.2016.1276605",
+      "source": "ORCID",
+      "concepts": [
+        "Electroconvulsive therapy",
+        "Deep brain stimulation",
+        "Bridge (graph theory)",
+        "Medicine",
+        "Neuroscience",
+        "Stimulation",
+        "Psychology",
+        "Anesthesia",
+        "Cardiology",
+        "Internal medicine",
+        "Electroconvulsive Shock",
+        "Disease",
+        "Parkinson's disease",
+        "Electroconvulsive Therapy Studies",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Transcranial Magnetic Stimulation Studies"
+      ],
+      "url": "https://doi.org/10.1080/13554794.2016.1276605"
+    },
+    {
+      "title": "Optimization of epidural cortical stimulation for treatment-resistant depression.",
+      "year": 2017,
+      "journal": "Brain stimulation",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Unilateral ultra-brief pulse electroconvulsive therapy for depression in Parkinson's disease",
+      "year": 2017,
+      "journal": "Acta Neurologica Scandinavica",
+      "doi": "10.1111/ane.12614",
+      "source": "ORCID",
+      "concepts": [
+        "Electroconvulsive therapy",
+        "Depression (economics)",
+        "Cognition",
+        "Mood",
+        "Psychology",
+        "Psychiatry",
+        "Disease",
+        "Refractory (planetary science)",
+        "Lithium (medication)",
+        "Parkinson's disease",
+        "Deep brain stimulation",
+        "Medicine",
+        "Internal medicine",
+        "Macroeconomics",
+        "Astrobiology",
+        "Economics",
+        "Physics",
+        "Electroconvulsive Therapy Studies",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Transcranial Magnetic Stimulation Studies"
+      ],
+      "url": "https://doi.org/10.1111/ane.12614"
+    },
+    {
+      "title": "Five-Year Follow-Up of Bilateral Epidural Prefrontal Cortical Stimulation for Treatment-Resistant Depression",
+      "year": 2016,
+      "journal": "Brain Stimulation",
+      "doi": "10.1016/j.brs.2016.06.054",
+      "source": "ORCID",
+      "concepts": [
+        "Depression (economics)",
+        "Stimulation",
+        "Prefrontal cortex",
+        "Medicine",
+        "Neuroscience",
+        "Treatment-resistant depression",
+        "Psychology",
+        "Anesthesia",
+        "Major depressive disorder",
+        "Cognition",
+        "Macroeconomics",
+        "Economics",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression"
+      ],
+      "url": "https://doi.org/10.1016/j.brs.2016.06.054"
+    },
+    {
+      "title": "Neuroversion: Using Electroconvulsive Therapy as a Bridge to Deep Brain Stimulation Implantation",
+      "year": 2016,
+      "journal": "",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Stimulating Across the Frontostriatal Circuitry to Treat Parkinson's Disease",
+      "year": 2016,
+      "journal": "",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "NMDA antagonist treatment of depression",
+      "year": 2016,
+      "journal": "Current Opinion in Neurobiology",
+      "doi": "10.1016/j.conb.2015.11.001",
+      "source": "ORCID",
+      "concepts": [
+        "Ketamine",
+        "NMDA receptor",
+        "Antidepressant",
+        "Neuroscience",
+        "Mechanism (biology)",
+        "Psychology",
+        "Depression (economics)",
+        "Antagonist",
+        "Synaptic plasticity",
+        "Synapse",
+        "Medicine",
+        "Hippocampus",
+        "Pharmacology",
+        "Receptor",
+        "Internal medicine",
+        "Macroeconomics",
+        "Philosophy",
+        "Epistemology",
+        "Economics",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies",
+        "Tryptophan and brain disorders"
+      ],
+      "url": "https://doi.org/10.1016/j.conb.2015.11.001"
+    },
+    {
+      "title": "Reward circuit DBS improves Parkinson’s gait along with severe depression and OCD",
+      "year": 2016,
+      "journal": "Neurocase",
+      "doi": "10.1080/13554794.2015.1112019",
+      "source": "ORCID",
+      "concepts": [
+        "Deep brain stimulation",
+        "Subthalamic nucleus",
+        "Parkinson's disease",
+        "Apathy",
+        "Depression (economics)",
+        "Psychology",
+        "Physical medicine and rehabilitation",
+        "Ventral striatum",
+        "Mood",
+        "Medicine",
+        "Psychiatry",
+        "Neuroscience",
+        "Disease",
+        "Striatum",
+        "Internal medicine",
+        "Dopamine",
+        "Cognition",
+        "Macroeconomics",
+        "Economics",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Transcranial Magnetic Stimulation Studies"
+      ],
+      "url": "https://doi.org/10.1080/13554794.2015.1112019"
+    },
+    {
+      "title": "Beyond Neural Cubism: Promoting a Multidimensional View of Brain Disorders by Enhancing the Integration of Neurology and Psychiatry in Education",
+      "year": 2015,
+      "journal": "Academic Medicine",
+      "doi": "10.1097/acm.0000000000000530",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Oscillating square wave transcranial direct current stimulation (tDCS) delivered during slow wave sleep does not improve declarative memory more than sham: A randomized sham controlled crossover study",
+      "year": 2015,
+      "journal": "Brain Stimulation",
+      "doi": "10.1016/j.brs.2015.01.414",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Therapeutic Applications of rTMS for Psychiatric and Neurological Conditions",
+      "year": 2015,
+      "journal": "Brain Stimulation: Methodologies and Interventions",
+      "doi": "10.1002/9781118568323.ch12",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Adjunctive triple chronotherapy (combined total sleep deprivation, sleep phase advance, and bright light therapy) rapidly improves mood and suicidality in suicidal depressed inpatients: An open label pilot study",
+      "year": 2014,
+      "journal": "Journal of Psychiatric Research",
+      "doi": "10.1016/j.jpsychires.2014.08.015",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Role of functional imaging in the development and refinement of invasive neuromodulation for psychiatric disorders.",
+      "year": 2014,
+      "journal": "World journal of radiology",
+      "doi": "10.4329/wjr.v6.i10.756",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Interventional psychiatry: How should psychiatric educators incorporate neuromodulation into training?",
+      "year": 2014,
+      "journal": "Academic Psychiatry",
+      "doi": "10.1007/s40596-014-0050-x",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Interventional psychiatry: Why now?",
+      "year": 2014,
+      "journal": "Journal of Clinical Psychiatry",
+      "doi": "10.4088/jcp.13108745",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Interventional psychiatry: why now?",
+      "year": 2014,
+      "journal": "The Journal of clinical psychiatry",
+      "doi": "10.4088/jcp.13l08745",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Repetitive transcranial magnetic stimulation for depression and other indications",
+      "year": 2014,
+      "journal": "Bioelectromagnetic and Subtle Energy Medicine",
+      "doi": "10.1201/b17978",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Subthalamic Nucleus Versus Globus Pallidus Internus Deep Brain Stimulation: Translating the Rematch Into Clinical Practice",
+      "year": 2014,
+      "journal": "Movement Disorders Clinical Practice",
+      "doi": "10.1002/mdc3.12004",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "An overview of sports concussion.",
+      "year": 2013,
+      "journal": "Journal of the South Carolina Medical Association (1975)",
+      "doi": null,
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Deep brain stimulation (DBS) at the interface of neurology and psychiatry",
+      "year": 2013,
+      "journal": "Journal of Clinical Investigation",
+      "doi": "10.1172/jci68341",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Incidence of sport-related traumatic brain injury and risk factors of severity: A population-based epidemiologic study",
+      "year": 2013,
+      "journal": "Annals of Epidemiology",
+      "doi": "10.1016/j.annepidem.2013.07.022",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Unique case of \"post-lumbar puncture headache\"",
+      "year": 2013,
+      "journal": "Headache",
+      "doi": "10.1111/head.12005",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "High school coaches perceptions of physicians' role in the assessment and management of sports-related concussive injury",
+      "year": 2012,
+      "journal": "Frontiers in Neurology",
+      "doi": "10.3389/fneur.2012.00130",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Sports-related concussions",
+      "year": 2012,
+      "journal": "Pediatric Emergency Care",
+      "doi": "10.1097/pec.0b013e318267f674",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Diagnosis, treatment, and long-term outcomes of late-onset (Type III) multiple Acyl-CoA dehydrogenase deficiency",
+      "year": 2010,
+      "journal": "Journal of Child Neurology",
+      "doi": "10.1177/0883073809351984",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Relapse rates with long-term antidepressant drug therapy: A meta-analysis",
+      "year": 2009,
+      "journal": "Human Psychopharmacology",
+      "doi": "10.1002/hup.1033",
+      "source": "ORCID",
+      "concepts": []
+    },
+    {
+      "title": "Correction: Neurophysiological signatures of Stanford Neuromodulation Therapy in treatment resistant depression",
+      "year": 2026,
+      "journal": "Molecular Psychiatry",
+      "doi": "10.1038/s41380-026-03915-7",
+      "url": "https://doi.org/10.1038/s41380-026-03915-7",
+      "source": "OpenAlex",
+      "concepts": [
+        "Treatment-resistant depression",
+        "Neuromodulation",
+        "Neurophysiology",
+        "Medicine",
+        "Depression (economics)",
+        "Neuroscience",
+        "Deep brain stimulation",
+        "Physical medicine and rehabilitation",
+        "Psychology",
+        "Neurology",
+        "MEDLINE",
+        "Neurofeedback",
+        "Animal model",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Treatment of Major Depression",
+        "Transcranial Magnetic Stimulation Studies"
+      ]
+    },
+    {
+      "title": "A practical framework for large-scale neuroimaging data collection in clinically diverse populations: experience from the Stanford Brain Stimulation Lab",
+      "year": 2026,
+      "journal": "Frontiers in Neuroscience",
+      "doi": "10.3389/fnins.2026.1849837",
+      "url": "https://doi.org/10.3389/fnins.2026.1849837",
+      "source": "OpenAlex",
+      "concepts": [
+        "Neuroimaging",
+        "Data collection",
+        "Documentation",
+        "Computer science",
+        "Protocol (science)",
+        "Data science",
+        "Medical physics",
+        "Data sharing",
+        "Brain stimulation",
+        "Functional neuroimaging",
+        "Set (abstract data type)",
+        "Medicine",
+        "Software",
+        "Data acquisition",
+        "Focus (optics)",
+        "Artificial intelligence",
+        "Psychology",
+        "Data quality",
+        "MEDLINE",
+        "Medical imaging",
+        "Electronic data capture",
+        "Advanced MRI Techniques and Applications",
+        "Functional Brain Connectivity Studies",
+        "Advanced Neuroimaging Techniques and Applications"
+      ]
+    },
+    {
+      "title": "Neurophysiological signatures of Stanford Neuromodulation Therapy in treatment resistant depression",
+      "year": 2026,
+      "journal": "Molecular Psychiatry",
+      "doi": "10.1038/s41380-026-03837-4",
+      "url": "https://doi.org/10.1038/s41380-026-03837-4",
+      "source": "OpenAlex",
+      "concepts": [
+        "Neuromodulation",
+        "Treatment-resistant depression",
+        "Neurophysiology",
+        "Depression (economics)",
+        "Neuroscience",
+        "Psychology",
+        "Physical medicine and rehabilitation",
+        "Medicine",
+        "Major depressive disorder",
+        "Central nervous system",
+        "Economics",
+        "Cognition",
+        "Keynesian economics",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ]
+    },
+    {
+      "title": "Is ibogaine treatment durable? 12-month follow-up of magnesium–ibogaine therapy (MISTIC) in special operations veterans with traumatic brain injuries",
+      "year": 2026,
+      "journal": "Translational Psychiatry",
+      "doi": "10.1038/s41398-026-04327-5",
+      "url": "https://doi.org/10.1038/s41398-026-04327-5",
+      "source": "OpenAlex",
+      "concepts": [
+        "Medicine",
+        "Psychiatry",
+        "Emergency medicine",
+        "MEDLINE",
+        "Poison control",
+        "Intensive care medicine",
+        "Medical emergency",
+        "Schizophrenia (object-oriented programming)",
+        "Traumatic brain injury",
+        "Human factors and ergonomics",
+        "Occupational safety and health",
+        "Injury prevention",
+        "Pharmacotherapy",
+        "Suicide prevention",
+        "Traumatic Brain Injury Research",
+        "Psychedelics and Drug Studies",
+        "Posttraumatic Stress Disorder Research"
+      ]
+    },
+    {
+      "title": "Clinical and functional connectivity changes following the stanford accelerated intelligent neuromodulation therapy (SAINT) in bipolar I depression: A pilot study",
+      "year": 2026,
+      "journal": "Journal of Mood and Anxiety Disorders",
+      "doi": "10.1016/j.xjmad.2026.100192",
+      "url": "https://doi.org/10.1016/j.xjmad.2026.100192",
+      "source": "OpenAlex",
+      "concepts": [
+        "Neuromodulation",
+        "Dorsolateral prefrontal cortex",
+        "Functional connectivity",
+        "Bipolar disorder",
+        "Depression (economics)",
+        "Major depressive disorder",
+        "Anterior cingulate cortex",
+        "Neuroscience",
+        "Psychology",
+        "Deep brain stimulation",
+        "Brain stimulation",
+        "Prefrontal cortex",
+        "Transcranial magnetic stimulation",
+        "Physical medicine and rehabilitation",
+        "Stimulation",
+        "Medicine",
+        "Electroconvulsive therapy",
+        "Frontal lobe",
+        "Treatment-resistant depression",
+        "Functional magnetic resonance imaging",
+        "Transcranial direct-current stimulation",
+        "Rehabilitation",
+        "PsycINFO",
+        "Psychiatry",
+        "Cingulate cortex",
+        "Functional electrical stimulation",
+        "Resting state fMRI",
+        "Deep transcranial magnetic stimulation",
+        "Depressive symptoms",
+        "Transcranial Magnetic Stimulation Studies",
+        "Bipolar Disorder and Treatment",
+        "Electroconvulsive Therapy Studies"
+      ]
+    },
+    {
+      "title": "Objective quality assessment for precision functional MRI data",
+      "year": 2026,
+      "journal": "Neuron",
+      "doi": "10.1016/j.neuron.2026.05.020",
+      "url": "https://doi.org/10.1016/j.neuron.2026.05.020",
+      "source": "OpenAlex",
+      "concepts": [
+        "Computer science",
+        "Data mining",
+        "Quality (philosophy)",
+        "Measure (data warehouse)",
+        "Artificial intelligence",
+        "Data quality",
+        "Machine learning",
+        "Functional connectivity",
+        "Replication (statistics)",
+        "Similarity (geometry)",
+        "Noise reduction",
+        "Reliability (semiconductor)",
+        "Pattern recognition (psychology)",
+        "Index (typography)",
+        "Noise (video)",
+        "Synthetic data",
+        "Quality assessment",
+        "Functional Brain Connectivity Studies",
+        "Advanced MRI Techniques and Applications",
+        "Advanced Neuroimaging Techniques and Applications"
+      ]
+    },
+    {
+      "title": "Real-world evidence of SAINT® effectiveness in a heterogenous clinical population with psychiatric and medical comorbidities: A multicenter, open-label, community-based study",
+      "year": 2026,
+      "journal": "Journal of Mood and Anxiety Disorders",
+      "doi": "10.1016/j.xjmad.2026.100184",
+      "url": "https://doi.org/10.1016/j.xjmad.2026.100184",
+      "source": "OpenAlex",
+      "concepts": [
+        "Medicine",
+        "Psychiatry",
+        "Population",
+        "MEDLINE",
+        "Disease",
+        "Epidemiology",
+        "Schizophrenia (object-oriented programming)",
+        "Depression (economics)",
+        "Clinical trial",
+        "Quality (philosophy)",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ]
+    },
+    {
+      "title": "Why health authorities should endorse rTMS for treatment-resistant depression",
+      "year": 2026,
+      "journal": "Transcranial magnetic stimulation .",
+      "doi": "10.1016/j.transm.2026.100321",
+      "url": "https://doi.org/10.1016/j.transm.2026.100321",
+      "source": "OpenAlex",
+      "concepts": [
+        "Depression (economics)",
+        "Psychiatry",
+        "Medicine",
+        "Psychology",
+        "Mental health",
+        "MEDLINE",
+        "Public health",
+        "Major depressive disorder",
+        "Population",
+        "Clinical psychology",
+        "Transcranial Magnetic Stimulation Studies",
+        "Electroconvulsive Therapy Studies",
+        "Treatment of Major Depression"
+      ]
+    },
+    {
+      "title": "Rapid Remission With Durable Effects: Clinical Kinetics of Saint in Multiple Heterogeneous, Open-Label Populations",
+      "year": 2026,
+      "journal": "Transcranial magnetic stimulation .",
+      "doi": "10.1016/j.transm.2026.100263",
+      "url": "https://doi.org/10.1016/j.transm.2026.100263",
+      "source": "OpenAlex",
+      "concepts": [
+        "Kinetics",
+        "Medicine",
+        "Internal medicine",
+        "Chemistry",
+        "Population",
+        "Endocrinology",
+        "Surgery",
+        "Disease",
+        "Pharmacology",
+        "SAINT",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ]
+    },
+    {
+      "title": "Updates From a Second Stanford Neuromodulation Therapy RCT: Efficacy and Mechanistic Insights",
+      "year": 2026,
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2026.03.193",
+      "url": "https://doi.org/10.1016/j.biopsych.2026.03.193",
+      "source": "OpenAlex",
+      "concepts": [
+        "Neuromodulation",
+        "Neuroscience",
+        "Medicine",
+        "Deep brain stimulation",
+        "MEDLINE",
+        "Psychology",
+        "Clinical neurology",
+        "Physical medicine and rehabilitation",
+        "Central nervous system",
+        "Computer science",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Deep Brain Stimulation and Movement Disorders"
+      ]
+    },
+    {
+      "title": "Identification and Validation of a Novel Mitochondrial Mechanism for the Regulation of Brain Plasticity: Neuronal Exosomes as a Key Translational Avenue",
+      "year": 2026,
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2026.03.060",
+      "url": "https://doi.org/10.1016/j.biopsych.2026.03.060",
+      "source": "OpenAlex",
+      "concepts": [
+        "Microvesicles",
+        "Mechanism (biology)",
+        "Identification (biology)",
+        "Neuroscience",
+        "Key (lock)",
+        "Biology",
+        "microRNA",
+        "Cell biology",
+        "Mitochondrion",
+        "Computational biology",
+        "Exosome",
+        "Translation (biology)",
+        "Posttranslational modification",
+        "Extracellular vesicles in disease",
+        "Treatment of Major Depression",
+        "Neuroscience and Neuropharmacology Research"
+      ]
+    },
+    {
+      "title": "How Common Are Incidental Brain MRI Findings in Psychiatric Populations? Insights From Patients Seeking Accelerated TMS",
+      "year": 2026,
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2026.03.575",
+      "url": "https://doi.org/10.1016/j.biopsych.2026.03.575",
+      "source": "OpenAlex",
+      "concepts": [
+        "Medicine",
+        "Psychiatry",
+        "Neuroimaging",
+        "Magnetic resonance imaging",
+        "Psychology",
+        "MEDLINE",
+        "Clinical psychology",
+        "Schizophrenia (object-oriented programming)",
+        "Transcranial magnetic stimulation",
+        "Clinical neurology",
+        "Radiology practices and education",
+        "Advanced MRI Techniques and Applications",
+        "Traumatic Brain Injury Research"
+      ]
+    },
+    {
+      "title": "A Preoperative Electroencephalography Signature for Predicting Treatment Response to Deep Brain Stimulation in Obsessive-Compulsive Disorder",
+      "year": 2026,
+      "journal": "medRxiv",
+      "doi": "10.64898/2026.03.03.26347351",
+      "url": "https://doi.org/10.64898/2026.03.03.26347351",
+      "source": "OpenAlex",
+      "concepts": [
+        "Deep brain stimulation",
+        "Electroencephalography",
+        "Medicine",
+        "Internal capsule",
+        "Stimulation",
+        "Neuroimaging",
+        "Magnetoencephalography",
+        "Nucleus accumbens",
+        "Prospective cohort study",
+        "Neuroscience",
+        "Clinical trial",
+        "Quantitative electroencephalography",
+        "Internal medicine",
+        "Cohort",
+        "Predictive value of tests",
+        "Cardiology",
+        "Confidence interval",
+        "Brain stimulation",
+        "Clinical Practice",
+        "Physical medicine and rehabilitation",
+        "Brain mapping",
+        "Analysis of variance",
+        "Electrophysiology",
+        "Relative risk",
+        "Audiology",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Transcranial Magnetic Stimulation Studies"
+      ]
+    },
+    {
+      "title": "The Use of Vagus Nerve Stimulation (VNS) in the Management of Patients with Difficult-to-Treat Major Depressive Disorder (MDD): An Expert Consensus Statement",
+      "year": 2026,
+      "journal": "Neuropsychiatric Disease and Treatment",
+      "doi": "10.2147/ndt.s554007",
+      "url": "https://doi.org/10.2147/ndt.s554007",
+      "source": "OpenAlex",
+      "concepts": [
+        "Vagus nerve stimulation",
+        "Medicine",
+        "Delphi method",
+        "Likert scale",
+        "Major depressive disorder",
+        "Depression (economics)",
+        "Delphi",
+        "Psychiatry",
+        "Vagus nerve",
+        "MEDLINE",
+        "Statement (logic)",
+        "Family medicine",
+        "Intensive care medicine",
+        "Management of depression",
+        "Physical therapy",
+        "Quality (philosophy)",
+        "Patient satisfaction",
+        "Evidence-based medicine",
+        "Vagus Nerve Stimulation Research",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Treatment of Major Depression"
+      ]
+    },
+    {
+      "title": "Increased cortical thickness and decreased brain age among special operations veterans with blast TBI after a magnesium-ibogaine protocol",
+      "year": 2026,
+      "journal": "iScience",
+      "doi": "10.1016/j.isci.2026.115121",
+      "url": "https://doi.org/10.1016/j.isci.2026.115121",
+      "source": "OpenAlex",
+      "concepts": [
+        "Medicine",
+        "Protocol (science)",
+        "Traumatic brain injury",
+        "Physical medicine and rehabilitation",
+        "Brain aging",
+        "Neuroscience",
+        "Emergency medicine",
+        "Anesthesia",
+        "Neurology",
+        "Internal medicine",
+        "Neurointensive care",
+        "Cardiology",
+        "MEDLINE",
+        "Traumatic Brain Injury Research",
+        "Psychedelics and Drug Studies",
+        "Transcranial Magnetic Stimulation Studies"
+      ]
+    },
+    {
+      "title": "Complexity or simplicity? A replication analysis of low heart rate as a predictor of TMS response in major depressive disorder",
+      "year": 2026,
+      "journal": "European Neuropsychopharmacology",
+      "doi": "10.1016/j.euroneuro.2026.112796",
+      "url": "https://doi.org/10.1016/j.euroneuro.2026.112796",
+      "source": "OpenAlex",
+      "concepts": [
+        "Major depressive disorder",
+        "Replication (statistics)",
+        "Medicine",
+        "Internal medicine",
+        "Cardiology",
+        "Heart rate",
+        "Heart rate variability",
+        "Oncology",
+        "Depression (economics)",
+        "Meta-analysis",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ]
+    },
+    {
+      "title": "Neural Correlates of Ibogaine: Evidence From Functional Neuroimaging of Military Veterans",
+      "year": 2026,
+      "journal": "Biological Psychiatry Cognitive Neuroscience and Neuroimaging",
+      "doi": "10.1016/j.bpsc.2026.02.001",
+      "url": "https://doi.org/10.1016/j.bpsc.2026.02.001",
+      "source": "OpenAlex",
+      "concepts": [
+        "Neuroimaging",
+        "Neural correlates of consciousness",
+        "Neuroscience",
+        "Functional neuroimaging",
+        "Psychology",
+        "Neural activity",
+        "Functional Brain Imaging",
+        "Functional magnetic resonance imaging",
+        "Functional connectivity",
+        "Medicine",
+        "Brain mapping",
+        "Functional imaging",
+        "Brain activity and meditation",
+        "Brain Structure and Function",
+        "Nerve net",
+        "Psychedelics and Drug Studies",
+        "Traumatic Brain Injury Research",
+        "Functional Brain Connectivity Studies"
+      ]
+    },
+    {
+      "title": "Stereo-encephalography-guided multi-lead deep brain stimulation for treatment-refractory obsessive compulsive disorder – Study design and individualized surgical targeting approach",
+      "year": 2026,
+      "journal": "Journal of Affective Disorders",
+      "doi": "10.1016/j.jad.2026.121349",
+      "url": "https://doi.org/10.1016/j.jad.2026.121349",
+      "source": "OpenAlex",
+      "concepts": [
+        "Deep brain stimulation",
+        "Obsessive compulsive",
+        "Medicine",
+        "Protocol (science)",
+        "Neuroscience",
+        "Brain stimulation",
+        "Deep transcranial magnetic stimulation",
+        "Neuroimaging",
+        "Psychiatry",
+        "Psychology",
+        "Clinical neurology",
+        "Brain mapping",
+        "Neuromodulation",
+        "Clinical trial",
+        "MEDLINE",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Vagus Nerve Stimulation Research"
+      ]
+    },
+    {
+      "title": "Accelerated recovery using magnesium ibogaine: characterizing the subjective experience of its rapid healing from neuropsychiatric disorders",
+      "year": 2026,
+      "journal": "npj Mental Health Research",
+      "doi": "10.1038/s44184-026-00185-7",
+      "url": "https://doi.org/10.1038/s44184-026-00185-7",
+      "source": "OpenAlex",
+      "concepts": [
+        "Psychotherapist",
+        "Neurophenomenology",
+        "Embodied cognition",
+        "Narrative",
+        "Psychology",
+        "Cognition",
+        "Experiential learning",
+        "CLARITY",
+        "Phenomenology (philosophy)",
+        "Anxiety",
+        "Dehumanization",
+        "Medicine",
+        "Clinical psychology",
+        "Reminiscence",
+        "Neuroplasticity",
+        "Delirium",
+        "Medicalization",
+        "Debriefing",
+        "Dialogic",
+        "Cognitive psychology",
+        "Developmental psychology",
+        "Regret",
+        "Psychiatry",
+        "Depression (economics)",
+        "Thematic analysis",
+        "MEDLINE",
+        "Veterans Affairs",
+        "Hermeneutic phenomenology",
+        "Neurocognitive",
+        "Cognitive therapy",
+        "Qualitative research",
+        "Clinical Practice",
+        "Psychedelics and Drug Studies",
+        "Posttraumatic Stress Disorder Research",
+        "Traumatic Brain Injury Research"
+      ]
+    },
+    {
+      "title": "Human orbitofrontal neural activity is linked to obsessive-compulsive behavioral dynamics",
+      "year": 2026,
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2025.12.037",
+      "url": "https://doi.org/10.1016/j.cell.2025.12.037",
+      "source": "OpenAlex",
+      "concepts": [
+        "Orbitofrontal cortex",
+        "Neuroscience",
+        "Biology",
+        "Exacerbation",
+        "Basal (medicine)",
+        "Stimulation",
+        "Neural activity",
+        "Premovement neuronal activity",
+        "Basal ganglia",
+        "Brain activity and meditation",
+        "Dynamics (music)",
+        "Magnetoencephalography",
+        "Electroencephalography",
+        "Brain mapping",
+        "Human brain",
+        "Neurophysiology",
+        "Deep brain stimulation",
+        "Prefrontal cortex",
+        "Amygdala",
+        "Neuroimaging",
+        "Cortex (anatomy)",
+        "Electrical brain stimulation",
+        "Provocation test",
+        "Central nervous system",
+        "Nerve net",
+        "Psychology",
+        "Temporal cortex",
+        "Electrophysiology",
+        "Functional magnetic resonance imaging",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Neural and Behavioral Psychology Studies"
+      ]
+    },
+    {
+      "title": "Stanford neuromodulation therapy for treatment‐resistant depression: a randomized controlled trial confirming efficacy, and an EEG study providing insight into mechanism of action and a potentially predictive biomarker of efficacy",
+      "year": 2026,
+      "journal": "World Psychiatry",
+      "doi": "10.1002/wps.70032",
+      "url": "https://doi.org/10.1002/wps.70032",
+      "source": "OpenAlex",
+      "concepts": [
+        "Medicine",
+        "Neuromodulation",
+        "Randomized controlled trial",
+        "Anterior cingulate cortex",
+        "Internal medicine",
+        "BETA (programming language)",
+        "Biomarker",
+        "Electroencephalography",
+        "Oncology",
+        "Depression (economics)",
+        "Stimulation",
+        "Clinical trial",
+        "Neuroscience",
+        "Electrophysiology",
+        "Deep brain stimulation",
+        "Blockade",
+        "Behavioral activation",
+        "Mechanism of action",
+        "Transcranial direct-current stimulation",
+        "Anesthesia",
+        "Brain activity and meditation",
+        "Lead (geology)",
+        "Clinical endpoint",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ]
+    },
+    {
+      "title": "Temporal variation of brain hemodynamics with accelerated iTBS for depression: A single-case concurrent TMS/fNIRS study",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2025.103020",
+      "url": "https://doi.org/10.1016/j.brs.2025.103020",
+      "source": "OpenAlex",
+      "concepts": [
+        "Neuromodulation",
+        "Neuroimaging",
+        "Neuroscience",
+        "Haemodynamic response",
+        "Functional neuroimaging",
+        "Functional electrical stimulation",
+        "Hemodynamics",
+        "Medicine",
+        "Stimulation",
+        "Functional imaging",
+        "Psychology",
+        "Electroencephalography",
+        "Deep brain stimulation",
+        "Prefrontal cortex",
+        "Functional near-infrared spectroscopy",
+        "Brain stimulation",
+        "Functional connectivity",
+        "Neural activity",
+        "Functional magnetic resonance imaging",
+        "Physical medicine and rehabilitation",
+        "Transcranial magnetic stimulation",
+        "Brain mapping",
+        "Neuropsychology",
+        "Functional Brain Imaging",
+        "Cardiology",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ]
+    },
+    {
+      "title": "Personalized continuation therapy with SAINT for maintaining remission in treatment-resistant depression",
+      "year": 2025,
+      "journal": "Transcranial magnetic stimulation .",
+      "doi": "10.1016/j.transm.2025.100203",
+      "url": "https://doi.org/10.1016/j.transm.2025.100203",
+      "source": "OpenAlex",
+      "concepts": [
+        "Depression (economics)",
+        "Medicine",
+        "Rating scale",
+        "Psychiatry",
+        "Adverse effect",
+        "Dosing",
+        "Continuation",
+        "Major depressive disorder",
+        "Treatment-resistant depression",
+        "Depressive symptoms",
+        "Randomized controlled trial",
+        "Physical therapy",
+        "Severity of illness",
+        "Clinical trial",
+        "Hamilton Rating Scale for Depression",
+        "Psychometrics",
+        "SAINT",
+        "Major depressive episode",
+        "Psychology",
+        "Placebo",
+        "Clinical psychology",
+        "Test (biology)",
+        "DASS",
+        "Test score",
+        "Pediatrics",
+        "Confidence interval",
+        "Refractory (planetary science)",
+        "Construct validity",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ]
+    },
+    {
+      "title": "Mystical experiences during magnesium-Ibogaine are associated with improvements in PTSD symptoms in veterans",
+      "year": 2025,
+      "journal": "Journal of Affective Disorders",
+      "doi": "10.1016/j.jad.2025.120722",
+      "url": "https://doi.org/10.1016/j.jad.2025.120722",
+      "source": "OpenAlex",
+      "concepts": [
+        "Mysticism",
+        "Psychology",
+        "Psychiatry",
+        "Clinical psychology",
+        "Electroencephalography",
+        "Clinical study",
+        "Clinical trial",
+        "Psychotherapist",
+        "Medicine",
+        "Cognition",
+        "Association (psychology)",
+        "Clinical Practice",
+        "Psychedelics and Drug Studies",
+        "Posttraumatic Stress Disorder Research",
+        "Paranormal Experiences and Beliefs"
+      ]
+    },
+    {
+      "title": "Durability of clinical benefit with Stanford Neuromodulation Therapy (SNT) in treatment-resistant depression: assessment of sustained remission and response following index treatment",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2025.05.092",
+      "url": "https://doi.org/10.1016/j.brs.2025.05.092",
+      "source": "OpenAlex",
+      "concepts": [
+        "Depression (economics)",
+        "Medicine",
+        "Treatment-resistant depression",
+        "Internal medicine",
+        "Major depressive disorder",
+        "Amygdala",
+        "Economics",
+        "Macroeconomics",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression"
+      ]
+    },
+    {
+      "title": "Saint Neuromodulation System to Treat Major Depressive Disorder in Adolescents",
+      "year": 2025,
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2025.02.417",
+      "url": "https://doi.org/10.1016/j.biopsych.2025.02.417",
+      "source": "OpenAlex",
+      "concepts": [
+        "Neuromodulation",
+        "SAINT",
+        "Major depressive disorder",
+        "Medicine",
+        "Depression (economics)",
+        "Psychology",
+        "Psychiatry",
+        "Clinical psychology",
+        "Neuroscience",
+        "Computer science",
+        "Mood",
+        "Central nervous system",
+        "Economics",
+        "Macroeconomics",
+        "Computer security",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ]
+    },
+    {
+      "title": "Disruptive High-Frequency Stimulation of the Limbic System Reduces Theta Band Activity in Relation to Baseline Connectivity",
+      "year": 2025,
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2025.02.359",
+      "url": "https://doi.org/10.1016/j.biopsych.2025.02.359",
+      "source": "OpenAlex",
+      "concepts": [
+        "Baseline (sea)",
+        "Stimulation",
+        "Neuroscience",
+        "Psychology",
+        "Limbic system",
+        "Audiology",
+        "Medicine",
+        "Biology",
+        "Central nervous system",
+        "Fishery",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Transcranial Magnetic Stimulation Studies",
+        "Vagus Nerve Stimulation Research"
+      ]
+    },
+    {
+      "title": "Higher Intensity of Mystical Experience Following Magnesium-Ibogaine is Associated With Larger Decreases in PTSD Severity",
+      "year": 2025,
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2025.02.669",
+      "url": "https://doi.org/10.1016/j.biopsych.2025.02.669",
+      "source": "OpenAlex",
+      "concepts": [
+        "Magnesium",
+        "Mysticism",
+        "Psychology",
+        "Intensity (physics)",
+        "Pharmacology",
+        "Medicine",
+        "Internal medicine",
+        "Chemistry",
+        "Art",
+        "Physics",
+        "Literature",
+        "Organic chemistry",
+        "Quantum mechanics",
+        "Psychedelics and Drug Studies",
+        "Posttraumatic Stress Disorder Research",
+        "Paranormal Experiences and Beliefs"
+      ]
+    },
+    {
+      "title": "Targeting the left DLPFC with TMS: Implications for emotion processing circuitry",
+      "year": 2025,
+      "journal": "Clinical Neurophysiology",
+      "doi": "10.1016/j.clinph.2025.02.031",
+      "url": "https://doi.org/10.1016/j.clinph.2025.02.031",
+      "source": "OpenAlex",
+      "concepts": [
+        "Psychology",
+        "Neuroscience",
+        "Transcranial Magnetic Stimulation Studies",
+        "Neural and Behavioral Psychology Studies",
+        "Deep Brain Stimulation and Movement Disorders"
+      ]
+    },
+    {
+      "title": "Assessing the Effectiveness of the SAINT® Neuromodulation System to Treat Major Depressive Disorder in a Real-World Setting: A Multisite, Open-Label Optimization Study",
+      "year": 2025,
+      "journal": "Transcranial magnetic stimulation .",
+      "doi": "10.1016/j.transm.2025.100113",
+      "url": "https://doi.org/10.1016/j.transm.2025.100113",
+      "source": "OpenAlex",
+      "concepts": [
+        "Major depressive disorder",
+        "Neuromodulation",
+        "Open label",
+        "SAINT",
+        "Psychology",
+        "Medicine",
+        "Psychiatry",
+        "Computer science",
+        "Randomized controlled trial",
+        "Mood",
+        "Surgery",
+        "Neuroscience",
+        "Computer security",
+        "Stimulation",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ]
+    },
+    {
+      "title": "Is “sham” stimulation really sham? Insights from a randomized, sham-controlled continuous theta-burst stimulation (cTBS) trial",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.12.950",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.950",
+      "source": "OpenAlex",
+      "concepts": [
+        "CTBS",
+        "Stimulation",
+        "Medicine",
+        "Neuroscience",
+        "Anesthesia",
+        "Psychology",
+        "Internal medicine",
+        "Transcranial magnetic stimulation",
+        "Primary motor cortex",
+        "Transcranial Magnetic Stimulation Studies",
+        "Electroconvulsive Therapy Studies",
+        "Ultrasound and Hyperthermia Applications"
+      ]
+    },
+    {
+      "title": "fMRI-guided rTMS to the vMPFC or DLPFC: evaluating change in brain response to cannabis cues in an open-label, pilot clinical trial",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.12.958",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.958",
+      "source": "OpenAlex",
+      "concepts": [
+        "Psychology",
+        "Open label",
+        "Ventromedial prefrontal cortex",
+        "Response inhibition",
+        "Neuroscience",
+        "Physical medicine and rehabilitation",
+        "Clinical trial",
+        "Medicine",
+        "Cognition",
+        "Pathology",
+        "Prefrontal cortex",
+        "Transcranial Magnetic Stimulation Studies",
+        "Cannabis and Cannabinoid Research",
+        "Obsessive-Compulsive Spectrum Disorders"
+      ]
+    },
+    {
+      "title": "Intracranial Intermittent Theta Burst Stimulation And Heart Brain Coupling",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.12.760",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.760",
+      "source": "OpenAlex",
+      "concepts": [
+        "Stimulation",
+        "Neuroscience",
+        "Brain stimulation",
+        "Coupling (piping)",
+        "Medicine",
+        "Physics",
+        "Psychology",
+        "Materials science",
+        "Metallurgy",
+        "Transcranial Magnetic Stimulation Studies",
+        "Heart Rate Variability and Autonomic Control",
+        "Neural dynamics and brain function"
+      ]
+    },
+    {
+      "title": "Heart brain coupling as a potential marker of treatment engagement during intermittent thetaburst stimulation",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.12.314",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.314",
+      "source": "OpenAlex",
+      "concepts": [
+        "Stimulation",
+        "Coupling (piping)",
+        "Neuroscience",
+        "Brain stimulation",
+        "Medicine",
+        "Physical medicine and rehabilitation",
+        "Cardiology",
+        "Psychology",
+        "Internal medicine",
+        "Materials science",
+        "Metallurgy",
+        "Transcranial Magnetic Stimulation Studies",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Vagus Nerve Stimulation Research"
+      ]
+    },
+    {
+      "title": "Chronometric TMS-fMRI for exploring whole-brain state-dependent effects of DLPFC stimulation",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.12.624",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.624",
+      "source": "OpenAlex",
+      "concepts": [
+        "Neuroscience",
+        "Stimulation",
+        "Brain stimulation",
+        "Psychology",
+        "Brain activity and meditation",
+        "Cognitive psychology",
+        "Electroencephalography",
+        "Transcranial Magnetic Stimulation Studies",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Neural and Behavioral Psychology Studies"
+      ]
+    },
+    {
+      "title": "Reduction of Beta Band Activity in the Dorsolateral Prefrontal Cortex and Subgenual Anterior Cingulate Cortex After Stanford Neuromodulation Therapy in Treatment-Resistant Depression",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.12.566",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.566",
+      "source": "OpenAlex",
+      "concepts": [
+        "Neuromodulation",
+        "Dorsolateral prefrontal cortex",
+        "Anterior cingulate cortex",
+        "Neuroscience",
+        "Psychology",
+        "Depression (economics)",
+        "Prefrontal cortex",
+        "Psychotherapist",
+        "Cognition",
+        "Stimulation",
+        "Macroeconomics",
+        "Economics",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression"
+      ]
+    },
+    {
+      "title": "Enhancement of task processing by stimulation of the dlPFC is related to target engagement of connected regions",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.12.967",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.967",
+      "source": "OpenAlex",
+      "concepts": [
+        "Stimulation",
+        "Task (project management)",
+        "Neuroscience",
+        "Psychology",
+        "Engineering",
+        "Systems engineering",
+        "Transcranial Magnetic Stimulation Studies",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Neural and Behavioral Psychology Studies"
+      ]
+    },
+    {
+      "title": "Fast Depressive Symptom Improvement in Bipolar Disorder Type 1 after Stanford Accelerated Intelligent Neuromodulation Therapy: A Two-Site Feasibility and Safety Open Label Trial",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.12.045",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.045",
+      "source": "OpenAlex",
+      "concepts": [
+        "Neuromodulation",
+        "Open label",
+        "Bipolar disorder",
+        "Major depressive disorder",
+        "Depressive symptoms",
+        "Medicine",
+        "Psychology",
+        "Psychiatry",
+        "Clinical trial",
+        "Internal medicine",
+        "Mood",
+        "Cognition",
+        "Stimulation",
+        "Bipolar Disorder and Treatment",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Electroconvulsive Therapy Studies"
+      ]
+    },
+    {
+      "title": "The importance of timing in TMS target engagement: Insights from chronometric TMS-fMRI",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.12.029",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.029",
+      "source": "OpenAlex",
+      "concepts": [
+        "Psychology",
+        "Cognitive psychology",
+        "Neuroscience",
+        "Transcranial Magnetic Stimulation Studies",
+        "Advanced MRI Techniques and Applications",
+        "Deep Brain Stimulation and Movement Disorders"
+      ]
+    },
+    {
+      "title": "Using repetitive Transcranial Magnetic Stimulation (rTMS) Applied to Either Incentive-Salience or Cognitive-Control Circuitry to Engage Craving and Delayed Discounting in a Preliminary Open-Label Randomized Controlled Trial for Cannabis Use Disorder",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.12.499",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.499",
+      "source": "OpenAlex",
+      "concepts": [
+        "Transcranial magnetic stimulation",
+        "Psychology",
+        "Open label",
+        "Randomized controlled trial",
+        "Craving",
+        "Brain stimulation",
+        "Salience (neuroscience)",
+        "Deep transcranial magnetic stimulation",
+        "Cognition",
+        "Discounting",
+        "Cannabis",
+        "Stimulation",
+        "Incentive salience",
+        "Physical medicine and rehabilitation",
+        "Cognitive psychology",
+        "Neuroscience",
+        "Addiction",
+        "Psychiatry",
+        "Medicine",
+        "Internal medicine",
+        "Economics",
+        "Finance",
+        "Transcranial Magnetic Stimulation Studies",
+        "Substance Abuse Treatment and Outcomes",
+        "Cannabis and Cannabinoid Research"
+      ]
+    },
+    {
+      "title": "Heart-rate variability as a proxy to assess excitability in the DLPFC",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.12.007",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.007",
+      "source": "OpenAlex",
+      "concepts": [
+        "Proxy (statistics)",
+        "Heart rate variability",
+        "Internal medicine",
+        "Psychology",
+        "Heart rate",
+        "Medicine",
+        "Mathematics",
+        "Statistics",
+        "Blood pressure",
+        "Transcranial Magnetic Stimulation Studies",
+        "Heart Rate Variability and Autonomic Control",
+        "Vagus Nerve Stimulation Research"
+      ]
+    },
+    {
+      "title": "Beta-Band Connectivity Alterations as a Predictor for SAINT Outcomes in Treatment-Resistant Depression",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.12.047",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.047",
+      "source": "OpenAlex",
+      "concepts": [
+        "BETA (programming language)",
+        "Depression (economics)",
+        "SAINT",
+        "Medicine",
+        "Psychology",
+        "Internal medicine",
+        "Computer science",
+        "Computer network",
+        "Economics",
+        "Macroeconomics",
+        "Programming language",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ]
+    },
+    {
+      "title": "Repetitive Transcranial Magnetic Stimulation to the Dorsolateral Prefrontal Cortex Increases Connectivity Between the Dorsolateral Prefrontal Cortex and the Dorsal Striatum but Not the Ventral Striatum in Participants with Cannabis Use Disorder",
+      "year": 2025,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2024.12.628",
+      "url": "https://doi.org/10.1016/j.brs.2024.12.628",
+      "source": "OpenAlex",
+      "concepts": [
+        "Dorsolateral prefrontal cortex",
+        "Neuroscience",
+        "Dorsolateral",
+        "Striatum",
+        "Transcranial magnetic stimulation",
+        "Ventral striatum",
+        "Prefrontal cortex",
+        "Consumer neuroscience",
+        "Psychology",
+        "Stimulation",
+        "Dorsum",
+        "Medicine",
+        "Anatomy",
+        "Dopamine",
+        "Cognition",
+        "Transcranial Magnetic Stimulation Studies",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Obsessive-Compulsive Spectrum Disorders"
+      ]
+    },
+    {
+      "title": "Interleaved TMS-fMRI Explains Variability in TMS Response",
+      "year": 2024,
+      "journal": "Proceedings on CD-ROM - International Society for Magnetic Resonance in Medicine. Scientific Meeting and Exhibition/Proceedings of the International Society for Magnetic Resonance in Medicine, Scientific Meeting and Exhibition",
+      "doi": "10.58530/2024/0336",
+      "url": "https://doi.org/10.58530/2024/0336",
+      "source": "OpenAlex",
+      "concepts": [
+        "Computer science",
+        "Transcranial magnetic stimulation",
+        "Neuroscience",
+        "Psychology",
+        "Stimulation",
+        "Transcranial Magnetic Stimulation Studies",
+        "Advanced MRI Techniques and Applications",
+        "Traumatic Brain Injury Research"
+      ]
+    },
+    {
+      "title": "9. EEG",
+      "year": 2024,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7112121850",
+      "source": "OpenAlex",
+      "concepts": [
+        "EEG and Brain-Computer Interfaces",
+        "Neural dynamics and brain function",
+        "Neural and Behavioral Psychology Studies"
+      ]
+    },
+    {
+      "title": "5. Mystical Experiences",
+      "year": 2024,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7111754504",
+      "source": "OpenAlex",
+      "concepts": [
+        "Paranormal Experiences and Beliefs",
+        "Religion, Spirituality, and Psychology",
+        "Study and Philosophy of Religion"
+      ]
+    },
+    {
+      "title": "(54095) An observational pre-post study evaluating safety of a naturally occurring psychoactive compound of the tabernanthe iboga plant.",
+      "year": 2024,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7111485189",
+      "source": "OpenAlex",
+      "concepts": [
+        "Medicine",
+        "Observational study",
+        "Emergency medicine",
+        "Pharmacovigilance",
+        "Pediatrics",
+        "Intensive care medicine",
+        "Incidence (geometry)",
+        "Psychoactive drug",
+        "MEDLINE",
+        "Epidemiology",
+        "Internal medicine",
+        "Psychedelics and Drug Studies",
+        "Alkaloids: synthesis and pharmacology",
+        "Medicinal Plant Extracts Effects"
+      ]
+    },
+    {
+      "title": "8. Exploratory",
+      "year": 2024,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7112270382",
+      "source": "OpenAlex",
+      "concepts": []
+    },
+    {
+      "title": "4. Function",
+      "year": 2024,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7112396050",
+      "source": "OpenAlex",
+      "concepts": []
+    },
+    {
+      "title": "2. Clinical",
+      "year": 2024,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7112460992",
+      "source": "OpenAlex",
+      "concepts": []
+    },
+    {
+      "title": "7. Imaging",
+      "year": 2024,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7112973124",
+      "source": "OpenAlex",
+      "concepts": []
+    },
+    {
+      "title": "6. Predictors",
+      "year": 2024,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7113151846",
+      "source": "OpenAlex",
+      "concepts": []
+    },
+    {
+      "title": "1.0 Cognitive",
+      "year": 2024,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7113294708",
+      "source": "OpenAlex",
+      "concepts": []
+    },
+    {
+      "title": "A Preliminary Investigation of Repetitive Transcranial Magnetic Stimulation Applied to the Left Dorsolateral Prefrontal Cortex in the Treatment of Cannabis Use Disorder",
+      "year": 2024,
+      "journal": "Drug and Alcohol Dependence",
+      "doi": "10.1016/j.drugalcdep.2023.110642",
+      "url": "https://doi.org/10.1016/j.drugalcdep.2023.110642",
+      "source": "OpenAlex",
+      "concepts": [
+        "Transcranial magnetic stimulation",
+        "Dorsolateral prefrontal cortex",
+        "Cannabis",
+        "Neuroscience",
+        "Prefrontal cortex",
+        "Dorsolateral",
+        "Psychology",
+        "Stimulation",
+        "Medicine",
+        "Psychiatry",
+        "Cognition",
+        "Transcranial Magnetic Stimulation Studies",
+        "Substance Abuse Treatment and Outcomes",
+        "Obsessive-Compulsive Spectrum Disorders"
+      ]
+    },
+    {
+      "title": "Changes in Functional Connectivity Following the Stanford Accelerated Intelligent Neuromodulation Therapy (SAINT) in Bipolar I Depression: A Pilot Study",
+      "year": 2024,
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2024.02.368",
+      "url": "https://doi.org/10.1016/j.biopsych.2024.02.368",
+      "source": "OpenAlex",
+      "concepts": [
+        "Depression (economics)",
+        "Neuromodulation",
+        "Psychology",
+        "Functional connectivity",
+        "Bipolar disorder",
+        "Physical medicine and rehabilitation",
+        "Neuroscience",
+        "Medicine",
+        "Cognition",
+        "Stimulation",
+        "Economics",
+        "Macroeconomics",
+        "Transcranial Magnetic Stimulation Studies",
+        "Electroconvulsive Therapy Studies",
+        "Bipolar Disorder and Treatment"
+      ]
+    },
+    {
+      "title": "22 The Effect of Ibogaine on Cognitive Functioning",
+      "year": 2023,
+      "journal": "Journal of the International Neuropsychological Society",
+      "doi": "10.1017/s1355617723011049",
+      "url": "https://doi.org/10.1017/s1355617723011049",
+      "source": "OpenAlex",
+      "concepts": [
+        "Psychology",
+        "Wechsler Adult Intelligence Scale",
+        "Memory span",
+        "Verbal fluency test",
+        "Neuropsychology",
+        "Verbal learning",
+        "Clinical psychology",
+        "Cognition",
+        "Audiology",
+        "Psychiatry",
+        "Working memory",
+        "Medicine",
+        "Psychedelics and Drug Studies",
+        "Alkaloids: synthesis and pharmacology",
+        "Schizophrenia research and treatment"
+      ]
+    },
+    {
+      "title": "Rapid Acting Transcranial Magnetic Stimulation",
+      "year": 2023,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7110621720",
+      "source": "OpenAlex",
+      "concepts": [
+        "Transcranial magnetic stimulation",
+        "Medicine",
+        "Neuroimaging",
+        "Neuroscience",
+        "Stimulation",
+        "Brain stimulation",
+        "Deep transcranial magnetic stimulation",
+        "Physical medicine and rehabilitation",
+        "Neuromodulation",
+        "Magnetic resonance imaging",
+        "Transcranial Magnetic Stimulation Studies",
+        "Electroconvulsive Therapy Studies",
+        "Treatment of Major Depression"
+      ]
+    },
+    {
+      "title": "fMRI Objectives",
+      "year": 2023,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7112473370",
+      "source": "OpenAlex",
+      "concepts": [
+        "Advanced MRI Techniques and Applications",
+        "Functional Brain Connectivity Studies",
+        "Advanced Neuroimaging Techniques and Applications"
+      ]
+    },
+    {
+      "title": "Ibogaine treatment in combat Veterans significantly improves sleep, beyond alleviating Posttraumatic Stress Disorder symptoms",
+      "year": 2023,
+      "journal": "SLEEP",
+      "doi": "10.1093/sleep/zsad077.0665",
+      "url": "https://doi.org/10.1093/sleep/zsad077.0665",
+      "source": "OpenAlex",
+      "concepts": [
+        "Pittsburgh Sleep Quality Index",
+        "Insomnia",
+        "Posttraumatic stress",
+        "Sleep disorder",
+        "Psychiatry",
+        "Context (archaeology)",
+        "Medicine",
+        "Psychology",
+        "Acute Stress Disorder",
+        "Sleep quality",
+        "Biology",
+        "Paleontology",
+        "Sleep and related disorders",
+        "Posttraumatic Stress Disorder Research",
+        "Psychedelics and Drug Studies"
+      ]
+    },
+    {
+      "title": "Heart-brain coupling in a randomized controlled trial of Stanford Neuromodulation Therapy: preliminary results and future directions.",
+      "year": 2023,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2023.01.662",
+      "url": "https://doi.org/10.1016/j.brs.2023.01.662",
+      "source": "OpenAlex",
+      "concepts": [
+        "Neuromodulation",
+        "Randomized controlled trial",
+        "Coupling (piping)",
+        "Medicine",
+        "Psychology",
+        "Neuroscience",
+        "Physical medicine and rehabilitation",
+        "Internal medicine",
+        "Engineering",
+        "Central nervous system",
+        "Mechanical engineering",
+        "Vagus Nerve Stimulation Research",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Heart Rate Variability and Autonomic Control"
+      ]
+    },
+    {
+      "title": "Whole brain TMS-evoked dose-response patterns of BOLD signal",
+      "year": 2023,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2023.01.235",
+      "url": "https://doi.org/10.1016/j.brs.2023.01.235",
+      "source": "OpenAlex",
+      "concepts": [
+        "Neuroscience",
+        "SIGNAL (programming language)",
+        "Psychology",
+        "Medicine",
+        "Computer science",
+        "Programming language",
+        "Transcranial Magnetic Stimulation Studies",
+        "Advanced MRI Techniques and Applications",
+        "Advanced Neuroimaging Techniques and Applications"
+      ]
+    },
+    {
+      "title": "Target engagement in SNT as measured by interleaved TMS-fMRI",
+      "year": 2023,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2023.01.192",
+      "url": "https://doi.org/10.1016/j.brs.2023.01.192",
+      "source": "OpenAlex",
+      "concepts": [
+        "Psychology",
+        "Transcranial Magnetic Stimulation Studies",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Tactile and Sensory Interactions"
+      ]
+    },
+    {
+      "title": "Directed ACC signaling patterns as MDD biomarker",
+      "year": 2023,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2023.01.010",
+      "url": "https://doi.org/10.1016/j.brs.2023.01.010",
+      "source": "OpenAlex",
+      "concepts": [
+        "Biomarker",
+        "Major depressive disorder",
+        "Computational biology",
+        "Neuroscience",
+        "Medicine",
+        "Biology",
+        "Genetics",
+        "Cognition",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Deep Brain Stimulation and Movement Disorders"
+      ]
+    },
+    {
+      "title": "Analysis Plan",
+      "year": 2022,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7110560309",
+      "source": "OpenAlex",
+      "concepts": []
+    },
+    {
+      "title": "References",
+      "year": 2022,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7110614657",
+      "source": "OpenAlex",
+      "concepts": []
+    },
+    {
+      "title": "EEG Objectives",
+      "year": 2022,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7111581876",
+      "source": "OpenAlex",
+      "concepts": [
+        "EEG and Brain-Computer Interfaces",
+        "Neural dynamics and brain function",
+        "Undergraduate Neuroscience Education and Research"
+      ]
+    },
+    {
+      "title": "Clinical Objectives",
+      "year": 2022,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7112155684",
+      "source": "OpenAlex",
+      "concepts": []
+    },
+    {
+      "title": "Objectives",
+      "year": 2022,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7112812600",
+      "source": "OpenAlex",
+      "concepts": []
+    },
+    {
+      "title": "HRV Objectives",
+      "year": 2022,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7112903338",
+      "source": "OpenAlex",
+      "concepts": [
+        "Heart Rate Variability and Autonomic Control",
+        "AI and HR Technologies",
+        "Human Resource Development and Performance Evaluation"
+      ]
+    },
+    {
+      "title": "Outcome Measures",
+      "year": 2022,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7113297687",
+      "source": "OpenAlex",
+      "concepts": [
+        "Delphi Technique in Research",
+        "Psychometric Methodologies and Testing",
+        "Psychological Testing and Assessment"
+      ]
+    },
+    {
+      "title": "Structural Imaging",
+      "year": 2022,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7113675443",
+      "source": "OpenAlex",
+      "concepts": [
+        "Advanced Neuroimaging Techniques and Applications",
+        "Functional Brain Connectivity Studies",
+        "Advanced MRI Techniques and Applications"
+      ]
+    },
+    {
+      "title": "Assessments and Study Time Points",
+      "year": 2022,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7160728843",
+      "source": "OpenAlex",
+      "concepts": []
+    },
+    {
+      "title": "Standard Operating Procedures, Instructions, Handouts",
+      "year": 2022,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7160736408",
+      "source": "OpenAlex",
+      "concepts": [
+        "Computer science",
+        "Identification (biology)",
+        "Environmental science",
+        "Data collection",
+        "Engineering",
+        "Business",
+        "Quality (philosophy)",
+        "Standardization",
+        "Work (physics)",
+        "Table (database)"
+      ]
+    },
+    {
+      "title": "Protocol Information",
+      "year": 2022,
+      "journal": "OSF Preprints (OSF Preprints)",
+      "doi": null,
+      "url": "https://openalex.org/W7160750927",
+      "source": "OpenAlex",
+      "concepts": []
+    },
+    {
+      "title": "Low Frequency Oscillations in the Ventral Nucleus Accumbens Region Guides Brain Responsive Neurostimulation for Loss of Control Eating: An Initial Review of the BITES Trial",
+      "year": 2022,
+      "journal": "Neurosurgery",
+      "doi": "10.1227/neu.0000000000001880_335",
+      "url": "https://doi.org/10.1227/neu.0000000000001880_335",
+      "source": "OpenAlex",
+      "concepts": [
+        "Medicine",
+        "Nucleus accumbens",
+        "Binge eating",
+        "Eating disorders",
+        "Craving",
+        "Neurostimulation",
+        "Rumination",
+        "Anesthesia",
+        "Audiology",
+        "Internal medicine",
+        "Psychiatry",
+        "Cognition",
+        "Addiction",
+        "Stimulation",
+        "Dopamine",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Eating Disorders and Behaviors",
+        "Vagus Nerve Stimulation Research"
+      ]
+    },
+    {
+      "title": "Transcranial magnetic stimulation for treatment-resistant depression",
+      "year": 2022,
+      "journal": "Elsevier eBooks",
+      "doi": "10.1016/b978-0-12-824067-0.00017-7",
+      "url": "https://doi.org/10.1016/b978-0-12-824067-0.00017-7",
+      "source": "OpenAlex",
+      "concepts": [
+        "Transcranial magnetic stimulation",
+        "Depression (economics)",
+        "Treatment-resistant depression",
+        "Neuroscience",
+        "Stimulation",
+        "Medicine",
+        "Psychology",
+        "Major depressive disorder",
+        "Economics",
+        "Keynesian economics",
+        "Cognition",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ]
+    },
+    {
+      "title": "New Stanford Protocol for TMS Found to Achieve Fast Remission",
+      "year": 2021,
+      "journal": "Psychiatric News",
+      "doi": "10.1176/appi.pn.2022.11.41",
+      "url": "https://doi.org/10.1176/appi.pn.2022.11.41",
+      "source": "OpenAlex",
+      "concepts": [
+        "Electroconvulsive therapy",
+        "Depression (economics)",
+        "Psychiatry",
+        "Protocol (science)",
+        "Transcranial magnetic stimulation",
+        "Treatment-resistant depression",
+        "Medicine",
+        "Major depressive disorder",
+        "Psychology",
+        "Internal medicine",
+        "Mood",
+        "Alternative medicine",
+        "Stimulation",
+        "Economics",
+        "Macroeconomics",
+        "Pathology",
+        "Cognition",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Electroconvulsive Therapy Studies"
+      ]
+    },
+    {
+      "title": "Heart rate deceleration (HRD) as a low cost scalable indicator of target engagement during SAINT for treatment resistant depression (TRD)",
+      "year": 2021,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2021.10.337",
+      "url": "https://doi.org/10.1016/j.brs.2021.10.337",
+      "source": "OpenAlex",
+      "concepts": [
+        "Depression (economics)",
+        "Scalability",
+        "SAINT",
+        "Treatment-resistant depression",
+        "Medicine",
+        "Internal medicine",
+        "Psychology",
+        "Computer science",
+        "Economics",
+        "Computer security",
+        "Antidepressant",
+        "Operating system",
+        "Hippocampus",
+        "Macroeconomics",
+        "Transcranial Magnetic Stimulation Studies",
+        "Treatment of Major Depression",
+        "Deep Brain Stimulation and Movement Disorders"
+      ]
+    },
+    {
+      "title": "Relationship between dose and duration of treatment response in severely treatment-resistant depression patients treated with accelerated intermittent theta bust stimulation",
+      "year": 2021,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2021.10.249",
+      "url": "https://doi.org/10.1016/j.brs.2021.10.249",
+      "source": "OpenAlex",
+      "concepts": [
+        "Bust",
+        "Depression (economics)",
+        "Stimulation",
+        "Duration (music)",
+        "Medicine",
+        "Psychology",
+        "Physical medicine and rehabilitation",
+        "Internal medicine",
+        "Economics",
+        "Physics",
+        "Keynesian economics",
+        "Boom",
+        "Environmental engineering",
+        "Engineering",
+        "Acoustics",
+        "Transcranial Magnetic Stimulation Studies",
+        "Electroconvulsive Therapy Studies",
+        "Deep Brain Stimulation and Movement Disorders"
+      ]
+    },
+    {
+      "title": "Stanford neuromodulation therapy (SNT): a double-blinded, randomized, and controlled trial",
+      "year": 2021,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2021.10.494",
+      "url": "https://doi.org/10.1016/j.brs.2021.10.494",
+      "source": "OpenAlex",
+      "concepts": [
+        "Neuromodulation",
+        "Randomized controlled trial",
+        "Psychology",
+        "Medicine",
+        "Internal medicine",
+        "Neuroscience",
+        "Stimulation",
+        "Deep Brain Stimulation and Movement Disorders",
+        "Pain Management and Treatment",
+        "Vagus Nerve Stimulation Research"
+      ]
+    },
+    {
+      "title": "Interslice TMS/fMRI enables continuous EPI during clinical rTMS and iTBS protocols",
+      "year": 2021,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2021.10.446",
+      "url": "https://doi.org/10.1016/j.brs.2021.10.446",
+      "source": "OpenAlex",
+      "concepts": [
+        "Transcranial magnetic stimulation",
+        "Scanner",
+        "Computer science",
+        "Set (abstract data type)",
+        "Finger tapping",
+        "Neuroscience",
+        "Artificial intelligence",
+        "Stimulation",
+        "Medicine",
+        "Psychology",
+        "Programming language",
+        "Audiology",
+        "Advanced MRI Techniques and Applications",
+        "Transcranial Magnetic Stimulation Studies",
+        "Advanced Neuroimaging Techniques and Applications"
+      ]
+    },
+    {
+      "title": "Accelerated neuromodulation therapy for obsessive-compulsive disorder",
+      "year": 2021,
+      "journal": "Brain stimulation",
+      "doi": "10.1016/j.brs.2021.10.428",
+      "url": "https://doi.org/10.1016/j.brs.2021.10.428",
+      "source": "OpenAlex",
+      "concepts": [
+        "CTBS",
+        "Wilcoxon signed-rank test",
+        "Medicine",
+        "Audiology",
+        "Neuromodulation",
+        "Psychology",
+        "Stimulation",
+        "Internal medicine",
+        "Primary motor cortex",
+        "Transcranial magnetic stimulation",
+        "Mann–Whitney U test",
+        "Obsessive-Compulsive Spectrum Disorders",
+        "Transcranial Magnetic Stimulation Studies",
+        "Deep Brain Stimulation and Movement Disorders"
+      ]
+    },
+    {
+      "title": "Altered Neurotransmitter Ratio in the Prefrontal Cortex is Associated with Pain in Fibromyalgia Syndrome",
+      "year": 2021,
+      "journal": "medRxiv",
+      "doi": "10.1101/2021.10.28.21265618",
+      "url": "https://doi.org/10.1101/2021.10.28.21265618",
+      "source": "OpenAlex",
+      "concepts": [
+        "Fibromyalgia",
+        "Dorsolateral prefrontal cortex",
+        "Prefrontal cortex",
+        "Psychology",
+        "Glutamate receptor",
+        "Chronic pain",
+        "Pathophysiology",
+        "Neuroscience",
+        "Medicine",
+        "Internal medicine",
+        "Cognition",
+        "Receptor",
+        "Fibromyalgia and Chronic Fatigue Syndrome Research",
+        "Pain Mechanisms and Treatments",
+        "Pain Management and Treatment"
+      ]
+    }
+  ],
+  "top_concepts": [
+    {
+      "name": "Medicine",
+      "count": 122
+    },
+    {
+      "name": "Psychology",
+      "count": 117
+    },
+    {
+      "name": "Transcranial Magnetic Stimulation Studies",
+      "count": 87
+    },
+    {
+      "name": "Neuroscience",
+      "count": 84
+    },
+    {
+      "name": "Stimulation",
+      "count": 63
+    },
+    {
+      "name": "Deep Brain Stimulation and Movement Disorders",
+      "count": 59
+    },
+    {
+      "name": "Internal medicine",
+      "count": 59
+    },
+    {
+      "name": "Psychiatry",
+      "count": 57
+    },
+    {
+      "name": "Treatment of Major Depression",
+      "count": 55
+    },
+    {
+      "name": "Depression (economics)",
+      "count": 47
+    },
+    {
+      "name": "Electroconvulsive Therapy Studies",
+      "count": 47
+    },
+    {
+      "name": "Economics",
+      "count": 39
+    },
+    {
+      "name": "Cognition",
+      "count": 36
+    },
+    {
+      "name": "Neuromodulation",
+      "count": 33
+    },
+    {
+      "name": "Macroeconomics",
+      "count": 32
+    },
+    {
+      "name": "Transcranial magnetic stimulation",
+      "count": 27
+    },
+    {
+      "name": "Deep brain stimulation",
+      "count": 25
+    },
+    {
+      "name": "Physical medicine and rehabilitation",
+      "count": 24
+    },
+    {
+      "name": "Major depressive disorder",
+      "count": 23
+    },
+    {
+      "name": "Prefrontal cortex",
+      "count": 21
+    },
+    {
+      "name": "Brain stimulation",
+      "count": 20
+    },
+    {
+      "name": "Obsessive-Compulsive Spectrum Disorders",
+      "count": 19
+    },
+    {
+      "name": "Disease",
+      "count": 19
+    },
+    {
+      "name": "Computer science",
+      "count": 18
+    },
+    {
+      "name": "Treatment-resistant depression",
+      "count": 17
+    },
+    {
+      "name": "Parkinson's disease",
+      "count": 16
+    },
+    {
+      "name": "Vagus Nerve Stimulation Research",
+      "count": 15
+    },
+    {
+      "name": "Dorsolateral prefrontal cortex",
+      "count": 15
+    },
+    {
+      "name": "Central nervous system",
+      "count": 14
+    },
+    {
+      "name": "Psychotherapist",
+      "count": 14
+    }
+  ],
+  "top_journals": [
+    {
+      "name": "Brain stimulation",
+      "count": 34
+    },
+    {
+      "name": "OSF Preprints (OSF Preprints)",
+      "count": 22
+    },
+    {
+      "name": "Biological Psychiatry",
+      "count": 12
+    },
+    {
+      "name": "The American journal of psychiatry",
+      "count": 8
+    },
+    {
+      "name": "Brain Stimulation",
+      "count": 6
+    },
+    {
+      "name": "American Journal of Psychiatry",
+      "count": 5
+    },
+    {
+      "name": "Molecular psychiatry",
+      "count": 4
+    },
+    {
+      "name": "Transcranial magnetic stimulation .",
+      "count": 4
+    },
+    {
+      "name": "The Journal of clinical psychiatry",
+      "count": 3
+    },
+    {
+      "name": "NeuroImage",
+      "count": 3
+    },
+    {
+      "name": "Molecular Psychiatry",
+      "count": 3
+    },
+    {
+      "name": "Journal of Affective Disorders",
+      "count": 3
+    },
+    {
+      "name": "NATURE MENTAL HEALTH",
+      "count": 2
+    },
+    {
+      "name": "Npj mental health research",
+      "count": 2
+    },
+    {
+      "name": "Neuron",
+      "count": 2
+    },
+    {
+      "name": "Translational Psychiatry",
+      "count": 2
+    },
+    {
+      "name": "Neurosurgery",
+      "count": 2
+    },
+    {
+      "name": "Neurocase",
+      "count": 2
+    },
+    {
+      "name": "Journal of Mood and Anxiety Disorders",
+      "count": 2
+    },
+    {
+      "name": "medRxiv",
+      "count": 2
+    }
+  ],
+  "author_candidates": [],
+  "warnings": []
+}

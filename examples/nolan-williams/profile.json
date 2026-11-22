@@ -1,0 +1,394 @@
+{
+  "format": "neurodaily.profile",
+  "version": 1,
+  "config": {
+    "profile": "nolan-williams-stanford",
+    "disciplines": [
+      {
+        "name": "Transcranial Magnetic Stimulation",
+        "arxiv_cats": [],
+        "mesh_terms": [],
+        "bio_cats": [],
+        "keywords": [
+          "Transcranial Magnetic Stimulation"
+        ],
+        "enabled": true
+      },
+      {
+        "name": "Deep Brain Stimulation and Movement Disorders",
+        "arxiv_cats": [
+          "q-bio.NC"
+        ],
+        "mesh_terms": [],
+        "bio_cats": [
+          "neuroscience"
+        ],
+        "keywords": [
+          "Deep Brain Stimulation and Movement Disorders"
+        ],
+        "enabled": true
+      },
+      {
+        "name": "Major Depression",
+        "arxiv_cats": [],
+        "mesh_terms": [
+          "Psychiatry"
+        ],
+        "bio_cats": [
+          "psychiatry"
+        ],
+        "keywords": [
+          "Major Depression"
+        ],
+        "enabled": true
+      },
+      {
+        "name": "Electroconvulsive Therapy",
+        "arxiv_cats": [],
+        "mesh_terms": [],
+        "bio_cats": [],
+        "keywords": [
+          "Electroconvulsive Therapy"
+        ],
+        "enabled": true
+      }
+    ],
+    "global_keywords": [
+      "Transcranial Magnetic Stimulation",
+      "Deep Brain Stimulation and Movement Disorders",
+      "Major Depression",
+      "Electroconvulsive Therapy",
+      "Cognition",
+      "Neuromodulation",
+      "Deep brain stimulation",
+      "Physical medicine and rehabilitation",
+      "Major depressive disorder",
+      "Prefrontal cortex",
+      "Brain stimulation",
+      "Obsessive-Compulsive Spectrum Disorders"
+    ],
+    "search": {
+      "query": "depression OR PTSD OR \"transcranial magnetic stimulation\" OR neuromodulation OR \"deep brain stimulation\"",
+      "sets": {},
+      "journal_mode": "prefer",
+      "journals": [
+        "Nature",
+        "Science",
+        "PNAS",
+        "Nature Communications",
+        "Science Advances",
+        "JAMA Psychiatry",
+        "The Lancet Psychiatry",
+        "Molecular Psychiatry",
+        "Biological Psychiatry",
+        "World Psychiatry",
+        "American Journal of Psychiatry",
+        "Nature Mental Health"
+      ],
+      "sort": "relevance"
+    },
+    "sources": {
+      "journal": {
+        "enabled": true,
+        "max_results": 300,
+        "lookback_days": 2
+      },
+      "pubmed": {
+        "enabled": true,
+        "max_results": 300,
+        "lookback_days": 2
+      },
+      "biorxiv": {
+        "enabled": true,
+        "max_results": 200,
+        "lookback_days": 2
+      },
+      "arxiv": {
+        "enabled": false,
+        "max_results": 100,
+        "lookback_days": 2
+      },
+      "trials": {
+        "enabled": true,
+        "max_results": 100,
+        "lookback_days": 2
+      },
+      "policy": {
+        "enabled": true,
+        "max_results": 100,
+        "lookback_days": 2
+      }
+    },
+    "windows": {
+      "daily_paper_hours": 36,
+      "manual_paper_hours": 240,
+      "trials_hours": 36,
+      "funding_hours": 36,
+      "news_hours": 36,
+      "other_lookback_days": 7
+    },
+    "policy_feeds": [],
+    "journals": [
+      {
+        "name": "Nature",
+        "url": "https://www.nature.com/",
+        "rss": "https://www.nature.com/nature.rss",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "Science",
+        "url": "https://www.science.org/",
+        "rss": "",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "PNAS",
+        "url": "https://www.pnas.org/",
+        "rss": "https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=pnas",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "Nature Communications",
+        "url": "https://www.nature.com/ncomms",
+        "rss": "https://www.nature.com/ncomms.rss",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "Science Advances",
+        "url": "https://www.science.org/journal/sciadv",
+        "rss": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "JAMA Psychiatry",
+        "url": "https://jamanetwork.com/journals/jamapsychiatry",
+        "rss": "",
+        "category": "psychiatry",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "The Lancet Psychiatry",
+        "url": "https://www.thelancet.com/journals/lanpsy",
+        "rss": "",
+        "category": "psychiatry",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "Molecular Psychiatry",
+        "url": "https://www.nature.com/mp",
+        "rss": "https://www.nature.com/mp.rss",
+        "category": "psychiatry",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "Biological Psychiatry",
+        "url": "https://www.biologicalpsychiatryjournal.com/",
+        "rss": "https://rss.sciencedirect.com/publication/science/00063223",
+        "category": "psychiatry",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "World Psychiatry",
+        "url": "https://onlinelibrary.wiley.com/journal/20515545",
+        "rss": "",
+        "category": "psychiatry",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "American Journal of Psychiatry",
+        "url": "https://ajp.psychiatryonline.org/",
+        "rss": "",
+        "category": "psychiatry",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "Nature Mental Health",
+        "url": "https://www.nature.com/natmentalhealth",
+        "rss": "https://www.nature.com/natmentalhealth.rss",
+        "category": "psychiatry",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "Brain Stimulation",
+        "url": "",
+        "rss": "",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "Transcranial Magnetic Stimulation",
+        "url": "",
+        "rss": "",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "Journal of Clinical Psychiatry",
+        "url": "",
+        "rss": "",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "NeuroImage",
+        "url": "",
+        "rss": "",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "Journal of Affective Disorders",
+        "url": "",
+        "rss": "",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "npj Mental Health Research",
+        "url": "",
+        "rss": "",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "Neuron",
+        "url": "",
+        "rss": "",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      },
+      {
+        "name": "Translational Psychiatry",
+        "url": "",
+        "rss": "",
+        "category": "general",
+        "impact_factor": null,
+        "jcr": "",
+        "cas": "",
+        "metric_year": null,
+        "year": null,
+        "aliases": [],
+        "issns": []
+      }
+    ]
+  }
+}
